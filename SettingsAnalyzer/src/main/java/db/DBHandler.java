@@ -1,0 +1,92 @@
+package db;
+
+import java.sql.*;
+
+/**
+ * Created by saar on 2/13/17.
+ */
+public class DBHandler {
+    //Data members
+    private Connection connection;
+    private String url;
+    private String user;
+    private String password;
+
+    //C'tor
+    public DBHandler(String url, String user, String password) {
+        this.connection = null;
+        this.url = url;
+        this.user = user;
+        this.password = password;
+    }
+
+    //Getter
+    public String getUrl() {
+        return url;
+    }
+
+    //Setter
+    public void setUrl(String url) {
+        this.url = url;
+    }
+
+    //Getter
+    public String getUser() {
+        return user;
+    }
+
+    //Setter
+    public void setUser(String user) {
+        this.user = user;
+    }
+
+    //Getter
+    public String getPassword() {
+        return password;
+    }
+
+    //Setter
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    //Getter
+    public Connection getConnection() {
+        return connection;
+    }
+
+    /**
+     * The function connects to the database,
+     * It uses it data members - url, user, password
+     * @return the connection, null if fails
+     */
+    public Connection connect() {
+        System.out.println("Connecting database...");
+        try {
+            this.connection = DriverManager.getConnection(url, user, password);
+            return this.connection;
+        } catch (SQLException e) {
+            System.out.print(e.getMessage());
+        }
+
+        return null;
+    }
+
+    /**
+     * The function executes a query on the DB.
+     * The call for the connection must be made before the call for the executeQuery function.
+     * @param query The query to execute
+     * @return The Result set returned according to the query
+     */
+    public ResultSet executeQuery(String query) {
+        try {
+            Statement stmt = connection.createStatement();
+            stmt = this.connection.createStatement();
+            ResultSet rs = stmt.executeQuery(query);
+            return rs;
+        } catch (SQLException e) {
+            System.out.print(e.getMessage());
+        }
+        return null;
+    }
+}
