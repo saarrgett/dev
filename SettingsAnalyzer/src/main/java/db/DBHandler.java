@@ -57,7 +57,7 @@ public class DBHandler {
 
     /**
      * The function connects to the database,
-     * It uses it data members - url, user, password
+     * It uses it data members - scrum, user, password
      * @return the connection, null if fails
      */
     public Connection connect() {

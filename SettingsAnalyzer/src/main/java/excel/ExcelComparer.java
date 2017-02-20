@@ -1,10 +1,7 @@
 package excel;
 
-import javafx.util.Pair;
-
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Set;
 
 /**
  * Created by saar on 2/13/17.
@@ -22,7 +19,6 @@ public class ExcelComparer {
         List<List<Object>> listOfDiffs = new ArrayList<List<Object>>();
 
         findDiffBetweenLists(list1, list2, listOfDiffs);
-        findDiffBetweenLists(list2, list1, listOfDiffs);
         return listOfDiffs;
     }
 

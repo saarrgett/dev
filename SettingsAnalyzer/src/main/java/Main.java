@@ -1,22 +1,19 @@
-import db.DBHandler;
-import db.ResultSetConverter;
-import excel.ExcelComparer;
 import excel.ExcelHandler;
-
-import java.sql.*;
-import java.util.List;
+import objects.SystemSettingDiffs;
+import java.util.ArrayList;
+import java.util.HashMap;
 
 /**
  * Created by saar on 2/12/17.
  */
 public class Main {
-    public static String url = "scrum1";
+    public static String scrum = "scrum1";
 
     public static void main(String[] args) {
         try {
-            SystemSettingDiffs systemSettingDiffs = new SystemSettingDiffs(url);
-            systemSettingDiffs.getDiffsFromAllCountries();
-            System.out.print("for debugging");
+            SystemSettingDiffs systemSettingDiffs = new SystemSettingDiffs(scrum);
+            HashMap<Object, HashMap<Object, ArrayList<Object>>> map = systemSettingDiffs.getDiffsFromAllCountries();
+            new ExcelHandler("tryout.xlsx", "try").createExcelSpreadSheetOfAllDiffs(map);
         }
         catch (Exception e){
             System.out.println(e.getMessage());
