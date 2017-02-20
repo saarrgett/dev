@@ -21,7 +21,7 @@ public class ExcelHandler {
 
     //Ct'or
     public ExcelHandler(String fileName, String sheetName) {
-        this.fileName = fileName;
+        this.fileName = System.getProperty("user.dir") + fileName;
         this.sheetName = sheetName;
     }
 
