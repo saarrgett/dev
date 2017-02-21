@@ -23,6 +23,12 @@ public class ExcelHandler {
         this.sheetName = sheetName;
     }
 
+    //Ct'or
+    public ExcelHandler(String fileName) {
+        this.fileName = System.getProperty("user.home") +"/"+ fileName;
+        this.sheetName = "test"; // Not necessarily in use
+    }
+
     /**
      * The function creates an excel spread sheet from an input of an object matrix.
      *
