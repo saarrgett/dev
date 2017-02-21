@@ -60,8 +60,8 @@ public class ExcelHandler {
             Workbook workbook = new XSSFWorkbook();
 
             Iterator<Object> countryItr = map.keySet().iterator();
-            int currentRow = 0;
             while (countryItr.hasNext()) {
+                int currentRow = 0;
                 Object country = countryItr.next();
                 Sheet sheet = workbook.createSheet(country.toString());
                 HashMap<Object, ArrayList<Object>> currentCountryMap = map.get(country);
@@ -71,10 +71,10 @@ public class ExcelHandler {
                     Row row = sheet.createRow((short) currentRow);
 
                     Object key = keyItr.next();
-                    ArrayList<Object> list = (ArrayList<Object>) currentCountryMap.get(key);
+                    ArrayList<Object> list = currentCountryMap.get(key);
                     row.createCell(0).setCellValue(key.toString());
                     for(int i = 1; i < list.size() + 1; ++i)
-                        row.createCell(i).setCellValue(list.get(i-1).toString());
+                        row.createCell(i).setCellValue(list.get(i - 1).toString());
 
                     currentRow++;
                 }
