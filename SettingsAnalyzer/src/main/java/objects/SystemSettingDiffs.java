@@ -18,7 +18,7 @@ public class SystemSettingDiffs {
     private String replicaCloneProductionUrl = "jdbc:mysql://gt-country-cloned-db.gtforge.com/gettaxi_country_production";
     private String replicaCloneProductionUser = "automation";
     private String replicaCloneProductionPassword = "Auto!@2016";
-    private String query = "Select * from system_settings";
+    private String query = "Select * from ";
     HashMap<Object, HashMap<Object,ArrayList<Object>>> diffsMaps;
 
     public SystemSettingDiffs(String scrum) {
@@ -32,10 +32,14 @@ public class SystemSettingDiffs {
      * @throws Exception
      */
     public HashMap<Object, HashMap<Object, ArrayList<Object>>> getDiffsFromAllCountries() throws Exception {
-        getDiffsFromSpecificCountry("il", replicaCloneProductionUrl.replace("country", "il"), this.url+"il"+scrum, "il" + scrum, "il" + scrum);
-        getDiffsFromSpecificCountry("ru", replicaCloneProductionUrl.replace("country", "ru"), this.url+"ru"+scrum, "ru" + scrum, "ru" + scrum);
-        getDiffsFromSpecificCountry("uk", replicaCloneProductionUrl.replace("country", "uk"), this.url+"uk"+scrum, "uk" + scrum, "uk" + scrum);
-        getDiffsFromSpecificCountry("us", replicaCloneProductionUrl.replace("country", "us"),this.url+"us"+scrum, "us" + scrum, "us" + scrum);
+        getDiffsFromSpecificCountry("il", replicaCloneProductionUrl.replace("country", "il"), this.url+"il"+scrum, "il" + scrum, "il" + scrum, "system_settings");
+        getDiffsFromSpecificCountry("il", replicaCloneProductionUrl.replace("country", "il"), this.url+"il"+scrum, "il" + scrum, "il" + scrum, "system_settings_interim");
+        getDiffsFromSpecificCountry("ru", replicaCloneProductionUrl.replace("country", "ru"), this.url+"ru"+scrum, "ru" + scrum, "ru" + scrum, "system_settings");
+        getDiffsFromSpecificCountry("ru", replicaCloneProductionUrl.replace("country", "ru"), this.url+"ru"+scrum, "ru" + scrum, "ru" + scrum, "system_settings_interim");
+        getDiffsFromSpecificCountry("uk", replicaCloneProductionUrl.replace("country", "uk"), this.url+"uk"+scrum, "uk" + scrum, "uk" + scrum, "system_settings");
+        getDiffsFromSpecificCountry("uk", replicaCloneProductionUrl.replace("country", "uk"), this.url+"uk"+scrum, "uk" + scrum, "uk" + scrum, "system_settings_interim");
+        getDiffsFromSpecificCountry("us", replicaCloneProductionUrl.replace("country", "us"),this.url+"us"+scrum, "us" + scrum, "us" + scrum, "system_settings");
+        getDiffsFromSpecificCountry("us", replicaCloneProductionUrl.replace("country", "us"),this.url+"us"+scrum, "us" + scrum, "us" + scrum, "system_settings_interim");
         return diffsMaps;
     }
 
@@ -49,15 +53,15 @@ public class SystemSettingDiffs {
      * @param password
      * @throws Exception
      */
-    private void getDiffsFromSpecificCountry(String country, String productionUrl, String scrumUrl, String username, String password) throws Exception {
+    private void getDiffsFromSpecificCountry(String country, String productionUrl, String scrumUrl, String username, String password, String table) throws Exception {
         DBHandler dbHandler = new DBHandler(scrumUrl, username, password);
         dbHandler.connect();
-        ResultSet resultSet = dbHandler.executeQuery(query);
+        ResultSet resultSet = dbHandler.executeQuery(query + table);
         Object[][] scrumObjMatrix = new ResultSetConverter().convertRStoMatrix(resultSet);
 
         dbHandler = new DBHandler(productionUrl, replicaCloneProductionUser, replicaCloneProductionPassword);
         dbHandler.connect();
-        resultSet = dbHandler.executeQuery(query);
+        resultSet = dbHandler.executeQuery(query + table);
         Object[][] productionObjMatrix = new ResultSetConverter().convertRStoMatrix(resultSet);
 
         List<List<Object>> diffFromScrumToProduction = new ExcelComparer().returnDiffsBetweenExcels(scrumObjMatrix, productionObjMatrix);
