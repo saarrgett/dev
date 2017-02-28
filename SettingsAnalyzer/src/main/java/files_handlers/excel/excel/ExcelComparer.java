@@ -1,9 +1,10 @@
-package excel;
+package files_handlers.excel.excel;
 
 import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * The class is used for finding the differences between the production and the Scrum env.
  * Created by saar on 2/13/17.
  */
 public class ExcelComparer {
