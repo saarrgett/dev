@@ -1,7 +1,8 @@
-package excel;
+package files_handlers.excel.excel;
 
 import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -10,6 +11,8 @@ import java.util.HashMap;
 import java.util.Iterator;
 
 /**
+ * This class handles with all the Excel file handling.
+ * For example: reading and writing to Excel file
  * Created by saar on 2/13/17.
  */
 public class ExcelHandler {
@@ -19,19 +22,18 @@ public class ExcelHandler {
 
     //Ct'or
     public ExcelHandler(String fileName, String sheetName) {
-        this.fileName = System.getProperty("user.home") +"/"+ fileName;
+        this.fileName = System.getProperty("user.home") + "/" + fileName;
         this.sheetName = sheetName;
     }
 
     //Ct'or
     public ExcelHandler(String fileName) {
-        this.fileName = System.getProperty("user.home") +"/"+ fileName;
+        this.fileName = System.getProperty("user.home") + "/" + fileName;
         this.sheetName = "test"; // Not necessarily in use
     }
 
     /**
-     * The function creates an excel spread sheet from an input of an object matrix.
-     *
+     * The function creates an files_handlers.excel.excel spread sheet from an input of an object matrix.
      * @param rowValues a matrix of objects
      */
     public void createExcelSpreadSheet(Object[][] rowValues) {
@@ -55,10 +57,8 @@ public class ExcelHandler {
         }
     }
 
-
     /**
-     * The function creates an excel spread sheet from an input of an object matrix.
-     *
+     * The function creates an files_handlers.excel.excel spread sheet from an input of an object matrix.
      * @param map a matrix of objects
      */
     public void createExcelSpreadSheetOfAllDiffs(HashMap<Object, HashMap<Object, ArrayList<Object>>> map) {
@@ -66,20 +66,26 @@ public class ExcelHandler {
             Workbook workbook = new XSSFWorkbook();
 
             Iterator<Object> countryItr = map.keySet().iterator();
+            Sheet sheet = workbook.createSheet("diff");
             while (countryItr.hasNext()) {
                 int currentRow = 0;
                 Object country = countryItr.next();
-                Sheet sheet = workbook.createSheet(country.toString());
                 HashMap<Object, ArrayList<Object>> currentCountryMap = map.get(country);
                 Iterator<Object> keyItr = currentCountryMap.keySet().iterator();
 
+                Row row = sheet.createRow((short) currentRow);
+                row.createCell(0).setCellValue("Key");
+                row.createCell(1).setCellValue("Production");
+                row.createCell(2).setCellValue("Scrum");
+                currentRow++;
+
                 while (keyItr.hasNext()) {
-                    Row row = sheet.createRow((short) currentRow);
+                    row = sheet.createRow((short) currentRow);
 
                     Object key = keyItr.next();
                     ArrayList<Object> list = currentCountryMap.get(key);
-                    row.createCell(0).setCellValue(key.toString());
-                    for(int i = 1; i < list.size() + 1; ++i)
+                    row.createCell(0).setCellValue(country + ", " + key.toString());
+                    for (int i = 1; i < list.size() + 1; ++i)
                         row.createCell(i).setCellValue(list.get(i - 1).toString());
 
                     currentRow++;
@@ -96,9 +102,8 @@ public class ExcelHandler {
     }
 
     /**
-     * The function returns a 2 dimensions array from the excel file
-     *
-     * @return 2 dimensions array, containing all the data from the excel
+     * The function returns a 2 dimensions array from the files_handlers.excel.excel file
+     * @return 2 dimensions array, containing all the data from the files_handlers.excel.excel
      */
     public Object[][] readFromExcel() {
         try {
@@ -109,7 +114,6 @@ public class ExcelHandler {
             int numberOfRows = currentSheet.getPhysicalNumberOfRows();
             int numberOfCols = currentSheet.getRow(0).getPhysicalNumberOfCells();
             Object[][] retMatrix = new Object[numberOfRows][numberOfCols];
-
 
             for (int i = 0; i < numberOfRows; ++i) {
                 Row nextRow = currentSheet.getRow(i);
