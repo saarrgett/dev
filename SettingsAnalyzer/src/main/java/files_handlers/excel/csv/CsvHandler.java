@@ -13,13 +13,13 @@ import java.util.Arrays;
 public class CsvHandler {
 
     //Data members
-    String whiteList; //The initial value from the whitelist file
+    String whiteListRelativePath; //The initial value from the whitelist file
     BufferedReader br;
     String csvSeperator; //The seperator used to parse the values from the csv file
 
     //C'tor
-    public CsvHandler(){
-        whiteList = "res/whitelist.csv";
+    public CsvHandler(String whiteListRelativePath){
+        this.whiteListRelativePath = whiteListRelativePath;
         csvSeperator = ";";
     }
 
@@ -30,7 +30,7 @@ public class CsvHandler {
     public ArrayList<String> getWhiteListValues(){
         ArrayList<String> allValuesList = new ArrayList<String>();
         try {
-            br = new BufferedReader(new FileReader(whiteList));
+            br = new BufferedReader(new FileReader(whiteListRelativePath));
             String allValuesString = br.readLine();
             allValuesList.addAll(Arrays.asList(allValuesString.split(csvSeperator)));
         } catch (Exception e) {

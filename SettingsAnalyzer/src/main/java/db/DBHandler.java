@@ -58,35 +58,25 @@ public class DBHandler {
     /**
      * The function connects to the database,
      * It uses it data members - scrum, user, password
+     *
      * @return the connection, null if fails
      */
-    public Connection connect() {
-        System.out.println("Connecting database...");
-        try {
-            this.connection = DriverManager.getConnection(url, user, password);
-            return this.connection;
-        } catch (SQLException e) {
-            System.out.print(e.getMessage());
-        }
-
-        return null;
+    public Connection connect() throws SQLException {
+        this.connection = DriverManager.getConnection(url, user, password);
+        return this.connection;
     }
 
     /**
      * The function executes a query on the DB.
      * The call for the connection must be made before the call for the executeQuery function.
+     *
      * @param query The query to execute
      * @return The Result set returned according to the query
      */
-    public ResultSet executeQuery(String query) {
-        try {
-            Statement stmt = connection.createStatement();
-            stmt = this.connection.createStatement();
-            ResultSet rs = stmt.executeQuery(query);
-            return rs;
-        } catch (SQLException e) {
-            System.out.print(e.getMessage());
-        }
-        return null;
+    public ResultSet executeQuery(String query) throws SQLException {
+        Statement stmt = connection.createStatement();
+        stmt = this.connection.createStatement();
+        ResultSet rs = stmt.executeQuery(query);
+        return rs;
     }
 }

@@ -24,9 +24,6 @@ public class ResultSetConverter {
         int endCol = this.ColCount(rs);
         int endRow = this.rowCount(rs);
 
-        if(rs.getFetchSize() == 0)
-            return new Object[0][0];
-
         tabArray = new Object[endRow - startRow - 1][endCol - startCol - 1];
         ci = 0;
         cj = 0;
