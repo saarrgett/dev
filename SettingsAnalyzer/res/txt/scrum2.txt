@@ -1,0 +1,653 @@
+uk;driver_pubnub_update_interval;600000;5000
+uk;new_cti_configurations_enabled;1;0
+uk;all_companies_flag;1;0
+uk;live_heatmaps_service_url;http://liveheatmaps.gtforge.com/;http://liveheatmaps-scrum7.gett.qa/
+uk;ordering_resource_cache_ttl;300;3600
+uk;production;1;0
+uk;class_availability_service_url;http://class-availability.gtforge.com/;http://class-availability-scrum2.gett.qa/
+uk;bookkeeping_service_url;http://bookkeeping.gtforge.com/;http://bookkeeping-scrum2.gett.qa/
+uk;fallback_recharge_max_attempts;10;7
+uk;notification_service_url;http://notification.gtforge.com/;Missing URL
+uk;validate_charge_amount;100;0
+uk;send_user_notifications_to_fraud_service;1;0
+uk;client_location_service_url;https://location.gett.com/;http://location-scrum2.gett.qa/
+uk;travel_policy_service_url;http://travelpolicy.gtforge.com;http://travelpolicy-scrum9.gett.qa
+uk;dbx_location_service_url;https://location.gett.com/;http://location-scrum2.gett.qa/
+uk;query_cache_enabled;1;0
+uk;invitation_service_url;http://invitation.gtforge.com/;http://invitation-qa.gtforge.com/
+uk;kiosk_version_url;https://s3-eu-west-1.amazonaws.com/alpha.gettaxi.com/kiosk/Kiosk_v1.143_lock.apk;Missing URL
+uk;gt_location_publish_interval;3600;30
+uk;add_card_javascript;ZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ2NhcmROdW1iZXInKS52YWx1ZQ==;Missing Value
+uk;driver_responsiveness_threshold;3;10
+uk;drivers_fee_for_ftr_user;10;0
+uk;rides_map_images_cdn;https://rides-map-images.gett.com/;https://rides-map-images-scrum.gett.qa/
+uk;location_proxy_url;http://prod-uk.gtforge.com/server/proxy_location/geocode;Missing URL
+uk;eta_factor;0.90;1.0
+uk;facebook_link;https://www.facebook.com/Gett.UK;Missing URL
+uk;event_log_enable_for_companies;-1;24
+uk;flight_number;1;0
+uk;pass_fraud_info_phase_two;0;1
+uk;osrm_service_url;http://osrm.gtforge.com/;http://osrm-qa.gett.qa/
+uk;walking_path_max_distance_meters;2000;500
+uk;channel_prefix;dbx.production.gb;0099d533fadba24f16dd6ab966ab4c3b;0099d533fadba24f16dd6ab966ab4c3b
+uk;short_code_service_url;http://gtag.gtforge.com/;http://gtag-scrum2.gett.qa/
+uk;walking_path_min_distance_meters;35;0
+uk;silence_before_reserved_order;15;30
+uk;final_map_distance;1000;2000
+uk;initial_map_distance;200;750
+uk;access_key_id;AKIAJDPGZWADYR3LVPYA;AKIAI2YTYVIAOW54CJNA
+uk;customer_care_business;02075615011;02077888987
+uk;order_locked_cache_ttl;86400;1
+uk;pre_eta_service_url;https://preeta.gtforge.com;localhost
+uk;enable_distance_time_table_cache;1;0
+uk;supplier_areas_queues_service_url;http://saq.gtforge.com/;http://saq-scrum7.gett.qa/
+uk;class_availability_resource_cache_ttl;60;3600
+uk;filter_previous_ignored_rejected_drivers;1;0
+uk;google_directions_estimations_enabled;0;1
+uk;offer_eta_to_pickup_timeout;0.2;0.03
+uk;gateway_service_url;http://sgw.gtforge.com/;Missing URL
+uk;twitter_link;https://twitter.com/gett_uk;Missing URL
+uk;analytics_token;83a4a8f8feed6fb3e0b04e87bcc53335;Missing Value
+uk;charging_service_url;http://charging.gtforge.com;http://charging-scrum2.gett.qa
+uk;query_cache_use_redis;1;0
+uk;phone_number_fraud_analyses_register;false;true
+uk;trip_service_url;http://trip.gtforge.com/;http://trip-qa.gett.qa/
+uk;mapquest_matrix_url;http://www.mapquestapi.com/directions/v2/routematrix;Missing URL
+uk;class_identity_resource_cache_ttl;60;15
+uk;pricing_service_url;http://pricing.gtforge.com/;http://pricing-scrum2.gett.qa/
+uk;coupon_service_code_activation;true;false
+uk;offer_map_display;1;0
+uk;active_trip_poller_interval_seconds;15;0
+uk;drivers_list_radius;2;0.05
+uk;arm_service_url;http://arm.gtforge.com/;http://arm-scrum6.gett.qa/
+uk;api_base_url;https://auth_4699198b788fe2ddd6e6:@pms.gtforge.com/api;http://admin_token:@pms-scrum2.gett.qa/api
+uk;bundled_time_frame_sec;900;1800
+uk;customer_care;02075615011;02077888987
+uk;driver_rating_last_rides;150;50
+uk;ftue_lines_enabled;1;0
+uk;invite_friends_coupon_service;true;false
+uk;appsflyer_url;http://api2.appsflyer.com/inappevent/;Missing URL
+uk;show_passenger_comment_dialog;0;1
+uk;loyalty_deeplink_url;.;Missing URL
+uk;reports_server_url;reports.uk.gett.com;Missing URL
+uk;supplier_order_user_id;2259451;2176728
+uk;fallback_recharge_max_per_batch;45;25
+uk;invitee_amount;50;5
+uk;supply_gateway_service_url;https://supplygateway.gett.com/;http://supplygateway-qa.gett.qa/
+uk;blog_link;http://gett.com/uk/category/blog/;Missing URL
+uk;media_service_url;http://media.gtforge.com/;http://media-scrum2.gett.qa/
+uk;show_max_wave_length_to_clients;No such key in Scrum
+uk;media_resource_cache_ttl;60;3600
+uk;flight_details_cache_ttl;600;60
+uk;line_service_url;http://line.gtforge.com/;http://line-qa.gett.qa/
+uk;future_booking_service_url;http://futureorder.gtforge.com/;Missing URL
+uk;landing_page_url_template;http://invite-uk.gett.com/code/%{coupon_code};http://invite-scrum2.gett.qa/code/%{coupon_code}
+uk;acceptance_prediction_service_url;http://acceptance-prediction.gtforge.com/;http://acceptance-prediction-qa.gett.qa/
+uk;refer_driver_url;https://gettaxi.me/driverhelp/referral/;0
+uk;monitoring_relay_service_url;http://monitoring-relay.gtforge.com/;http://relayscrum.gett.qa/
+uk;valid_time_value;120;1800
+uk;tours;{"first":["INTRO","REALTIME","FIXED","DRIVER","PAYMENT","FUTURE","INVITE_FRIENDS","LOYALTY"],"profile":["INTRO","REALTIME","FIXED","DRIVER","PAYMENT","FUTURE","INVITE_FRIENDS","LOYALTY"]};{"first":["INTRO","REALTIME","DRIVER","PAYMENT","FUTURE","INVITE_FRIENDS","LOYALTY"],"profile":["INTRO","REALTIME","DRIVER","PAYMENT","FUTURE","INVITE_FRIENDS","LOYALTY"]}
+uk;send_routing_event;1;0
+uk;area_service_url;http://area.gtforge.com/;http://area-scrum2.gett.qa/
+uk;rides_map_images_bucket_name;rides-map-images;rides-map-images-scrum
+uk;adx_url;http://apps.ad-x.co.uk/API;Missing URL
+uk;client_gateway_service_url;https://clientgateway.gett.com/;http://clientgateway-qa.gett.qa/
+uk;enable_force_autopay_on_auth_failure;0;1
+uk;business_signup_marketing_url;http://gett.com/uk/business.html;Missing URL
+uk;min_offer_distance_for_auto_approval;8000;1300
+uk;inviter_amount;10;5
+uk;pay_with_gett_connect_to_drivers_counter_expiration_time_in_minutes;5;15
+uk;use_supply_gateway;1;0
+uk;enabled;true;false
+uk;cc_otp_pass_enabled;1;0
+uk;recent_line_threshold_meters;150;0
+uk;time_to_keep_order_reservation;21600;300
+uk;default_stream;gett-kinesis-prod;gett-kinesis-qa
+uk;customer_care_private;02075615011;02077888987
+uk;expiration_timeout;20;23
+uk;location_service_url;https://location-int.gett.com/;http://location-scrum2.gett.qa/
+uk;ordering_service_url;http://ordering.gtforge.com/;http://ordering-scrum2.gett.qa/
+uk;use_commission_for_fees;0;1
+uk;singular_url;https://t.singular.net/s2s/events;Missing URL
+uk;location_service_tries_on_timeout;20;5
+uk;reports_service_url;http://reports.gtforge.com/;http://reports-scrum2.gett.qa/
+uk;url;localhost:3000;http://test@hub-scrum2.gett.qa/;Missing URL
+uk;location_service_routing_data_timeout;0.3;0.03
+uk;ftr_coupon_value;5;0
+uk;confirmation_sms_maximum_tries_before_blocking;No such key in Scrum
+uk;marketing_popup_timeout_threshold;3000;200
+uk;send_commission_text_to_mobile_enabled;false;true
+uk;coupon_service_url;http://coupon.gtforge.com/;http://coupon-scrum2.gett.qa/
+uk;secret_access_key;kEnBZ6JWHmqWyyB7NyK3B4iREvFcymEjDjh/zxdh;DF2893FksK6ymnJh5v5U7E/2glx1fmrcd876xGH6
+uk;active;No such key in Scrum
+uk;retrieve_user_by_card_maximum_tries_before_blocking;5;3
+uk;driver_info_from_location_service;1;0
+uk;monthly_reward_enabled;0;1
+uk;area_resource_cache_ttl;60;3600
+uk;charging_service_use_for_smb;1;0
+uk;webhook_service_url;http://webhook.gtforge.com/;http://webhook-qa.gett.qa/
+uk;policy_url;https://s3.amazonaws.com/tu.gett.com/cancellation_policy_uk.html;Missing URL
+uk;gms_version_url;https://s3-eu-west-1.amazonaws.com/alpha.gettaxi.com/kiosk/com.google.android.gms_3136.apk;Missing URL
+uk;gap_between_assigned_orders;15;45
+uk;continue_when_no_drivers;0;1
+uk;osrm_areas;5186;-1
+uk;travel_policy_url;http://travelpolicy.gtforge.com;http://travelpolicy-qa.gett.qa/
+uk;drivers_count_from_location;5;7
+uk;order_progress_logger_enabled;0;1
+uk;commission_service_url;http://commission.gtforge.com/;http://commission-scrum2.gett.qa/
+uk;pubnub_service_url;http://pubnub.gtforge.com/;http://pubnub-qa.gett.qa/
+uk;future_booking_service_settings_enabled;true;false
+uk;class_identity_service_url;http://class-identity.gtforge.com/;http://class-identity-scrum2.gett.qa/
+uk;redis_host;uk-redis.gtforge.com;Missing Value
+uk;driver_rating_start_fives_amount;No such key in Production
+uk;leumi_widget_production_enabled;false;0
+uk;advance_booking_days_number;No such key in Production
+uk;instagram_link;https://instagram.com/gett_uk/;Missing URL
+uk;website;http://gett.com/uk/;Missing URL
+uk;nexmo_registry_url;https://rest.nexmo.com/ni/json;Missing URL
+uk;default_resource_cache_ttl;60;15
+uk;max_hours_to_show_order;336;120
+uk;show_driver_birthday_overlay;0;1
+uk;pay_with_gett_driver_list_maximum_tries_before_blocking;10;3
+uk;retrieve_user_by_card;1;0
+uk;use_pubnub_service;1;0
+uk;driver_cc_phone;02075615011;02073974321
+uk;advance_booking_timeframe_non_cc;100;14
+uk;retrieve_user_by_card_counter_expiration_time_in_minutes;15;900
+us;show_destination_in_private_future_orders;1;0
+us;notices_polling_interval;10;30
+us;about_url;https://s3.amazonaws.com/tu.gett.com/driver_about.html;Missing URL
+us;driver_pubnub_update_interval;600000;5000
+us;all_companies_flag;1;0
+us;live_heatmaps_service_url;http://liveheatmaps.gtforge.com/;http://liveheatmaps-scrum7.gett.qa/
+us;production;1;0
+us;show_destination_in_phone_user_fixed_charge_orders;1;0
+us;class_availability_service_url;http://class-availability.gtforge.com/;http://class-availability-scrum2.gett.qa/
+us;bookkeeping_service_url;http://bookkeeping.gtforge.com/;http://bookkeeping-scrum2.gett.qa/
+us;fallback_recharge_max_attempts;10;7
+us;notification_service_url;http://notification.gtforge.com/;Missing URL
+us;send_user_notifications_to_fraud_service;1;0
+us;client_location_service_url;https://location.gett.com/;http://location-scrum2.gett.qa/
+us;travel_policy_service_url;http://travelpolicy.gtforge.com;http://travelpolicy-qa.gtforge.com/
+us;dbx_location_service_url;https://location.gett.com/;http://location-scrum2.gett.qa/
+us;invitation_service_url;http://invitation.gtforge.com/;http://invitation-qa.gtforge.com/
+us;kiosk_version_url;https://s3-eu-west-1.amazonaws.com/alpha.gettaxi.com/kiosk/Kiosk_v1.07.apk;Missing URL
+us;gt_location_publish_interval;3600;30
+us;add_card_javascript;nil;Missing Value
+us;driver_responsiveness_threshold;3;10
+us;cancellations_score_limit;5000;5
+us;rides_map_images_cdn;https://rides-map-images.gett.com/;https://rides-map-images-scrum.gett.qa/
+us;enable_dynamic_authorization;true;0
+us;location_proxy_url;http://prod-uk.gtforge.com/server/proxy_locations/geocode;Missing URL
+us;eta_factor;1.06;1.0
+us;future_cancellation_enabled_timer_secs;60;120
+us;facebook_link;https://www.facebook.com/gett;Missing URL
+us;event_log_enable_for_companies;-1;358
+us;pass_fraud_info_phase_two;0;1
+us;osrm_service_url;http://osrm.gtforge.com/;http://osrm-qa.gett.qa/
+us;walking_path_max_distance_meters;2000;500
+us;show_fix_price_for_business_main_screen;1;0
+us;channel_prefix;dbx.production.us;0099d533fadba24f16dd6ab966ab4c3b;0099d533fadba24f16dd6ab966ab4c3b
+us;short_code_service_url;http://gtag.gtforge.com/;http://gtag-scrum2.gett.qa/
+us;walking_path_min_distance_meters;35;0
+us;final_map_distance;1000;2000
+us;initial_map_distance;200;700
+us;access_key_id;AKIAJDPGZWADYR3LVPYA;AKIAI2YTYVIAOW54CJNA
+us;order_locked_cache_ttl;86400;1
+us;pre_eta_service_url;https://preeta.gtforge.com;localhost
+us;enable_distance_time_table_cache;1;0
+us;supplier_areas_queues_service_url;http://saq.gtforge.com/;http://saq-scrum7.gett.qa/
+us;filter_previous_ignored_rejected_drivers;1;0
+us;google_directions_estimations_enabled;0;1
+us;offer_eta_to_pickup_timeout;0.2;0.03
+us;show_route_to_pickup;0;1
+us;gateway_service_url;http://sgw.gtforge.com/;Missing URL
+us;twitter_link;https://twitter.com/gett;Missing URL
+us;ill_be_right_there_before_ping_timer_secs;300;40
+us;analytics_token;83a4a8f8feed6fb3e0b04e87bcc53335;Missing Value
+us;charging_service_url;http://charging.gtforge.com;http://charging-scrum2.gett.qa
+us;orders_polling_interval;60;30
+us;phone_number_fraud_analyses_register;true;ture
+us;trip_service_url;http://trip.gtforge.com/;http://trip-scrum2.gett.qa/
+us;mapquest_matrix_url;http://www.mapquestapi.com/directions/v2/routematrix;Missing URL
+us;show_destination_in_business_future_orders;1;0
+us;threshold_seconds;300;0
+us;no_show_fee_amount_to_gett_cents;0;449
+us;future_ill_be_right_there_before_ping_timer_secs;300;1800
+us;class_identity_promotional_popups_network_timeout;0.3;0.2
+us;coupon_service_code_activation;true;false
+us;pricing_service_url;http://pricing.gtforge.com/;http://pricing-scrum2.gett.qa/
+us;active_trip_poller_interval_seconds;15;0
+us;arm_service_url;http://arm.gtforge.com/;http://arm-scrum6.gett.qa/
+us;fallback_invite_friends_amount;5;10
+us;api_base_url;https://auth_4699198b788fe2ddd6e6@pms.gtforge.com/api;http://admin_token:@pms-scrum2.gett.qa/api
+us;driver_rating_last_rides;150;50
+us;ftue_lines_enabled;1;0
+us;invite_friends_coupon_service;true;false
+us;appsflyer_url;http://api2.appsflyer.com/inappevent/;Missing URL
+us;show_passenger_comment_dialog;0;1
+us;loyalty_deeplink_url;.;Missing URL
+us;sound_incoming_order;0;1
+us;reports_server_url;reports-us.gett.com;Missing URL
+us;trip_create_ride_request_network_timeout;No such key in Scrum
+us;supplier_order_user_id;1004482;863540
+us;fallback_recharge_max_per_batch;45;25
+us;invitee_amount;50;10
+us;supply_gateway_service_url;https://supplygateway.gett.com/;http://supplygateway-scrum2.gett.qa/
+us;blog_link;http://gett.com/blog/;Missing URL
+us;by_area;1;0
+us;media_service_url;http://media.gtforge.com/;http://media-scrum2.gett.qa/
+us;manual_payment_attempts_before_automatic_force_autopay;0;1
+us;show_max_wave_length_to_clients;No such key in Scrum
+us;media_resource_cache_ttl;60;3600
+us;show_destination_in_private_asap_orders;1;0
+us;line_service_url;http://line.gtforge.com/;http://line-scrum2.gett.qa/
+us;future_booking_service_url;http://futureorder.gtforge.com/;Missing URL
+us;landing_page_url_template;http://invite.gett.com/code/%{coupon_code};http://invite-scrum2.gett.qa/code/%{coupon_code}
+us;acceptance_prediction_service_url;http://acceptance-prediction.gtforge.com/;http://acceptance-prediction-qa.gett.qa/
+us;future_orders_threshold_seconds;3600;120
+us;refer_driver_url;https://ynycc.formstack.com/forms/driver_referral_form;0
+us;monitoring_relay_service_url;http://monitoring-relay.gtforge.com/;http://relayscrum.gett.qa/
+us;send_routing_event;1;0
+us;area_service_url;http://area.gtforge.com/;http://area-scrum2.gett.qa/
+us;rides_map_images_bucket_name;rides-map-images;rides-map-images-scrum
+us;adx_url;http://apps.ad-x.co.uk/API;Missing URL
+us;dynamic_auth_arm_service_request_timeout;2;1
+us;client_gateway_service_url;https://clientgateway.gett.com/;http://clientgateway-scrum2.gett.qa/
+us;business_signup_marketing_url;enter valid url here;Missing URL
+us;min_offer_distance_for_auto_approval;6000;200
+us;wave_extra_rule_radius_factor;1.0;0.51
+us;cancellation_enabled_timer_secs;60;20
+us;send_polyline_for_tolls_enabled;0;1
+us;inviter_amount;20;10
+us;show_destination_in_business_asap_orders;1;0
+us;use_supply_gateway;1;0
+us;enabled;true;false
+us;cc_otp_pass_enabled;1;0
+us;recent_line_threshold_meters;150;0
+us;default_stream;gett-kinesis-prod;gett-kinesis-qa
+us;driver_arrived_applies_after_seconds;5;60
+us;location_service_url;https://location-int.gett.com/;http://location-scrum2.gett.qa/
+us;future_ill_be_right_there_after_ping_timer_secs;300;1800
+us;ordering_service_url;http://ordering.gtforge.com/;http://ordering-scrum2.gett.qa/
+us;use_commission_for_fees;0;1
+us;singular_url;https://t.singular.net/s2s/events;Missing URL
+us;location_service_tries_on_timeout;20;5
+us;reports_service_url;http://reports.gtforge.com/;http://reports-scrum2.gett.qa/
+us;url;localhost:3000;http://test@hub-scrum2.gett.qa/;Missing URL
+us;location_service_routing_data_timeout;0.3;0.03
+us;enable_synchronious_authorization;1;0
+us;enable_destination_flags;1;0
+us;ill_be_right_there_after_ping_timer_secs;300;40
+us;confirmation_sms_maximum_tries_before_blocking;No such key in Scrum
+us;marketing_popup_timeout_threshold;2000;200
+us;send_commission_text_to_mobile_enabled;false;true
+us;coupon_service_url;http://coupon.gtforge.com/;http://coupon-scrum2.gett.qa/
+us;credit_card_roaming_enabled;1;0
+us;secret_access_key;kEnBZ6JWHmqWyyB7NyK3B4iREvFcymEjDjh/zxdh;DF2893FksK6ymnJh5v5U7E/2glx1fmrcd876xGH6
+us;active;No such key in Scrum
+us;driver_info_from_location_service;1;0
+us;webhook_service_url;http://webhook.gtforge.com/;http://webhook-qa.gett.qa/
+us;future_ping_enabled_timer_secs;120;300
+us;policy_url;https://s3.amazonaws.com/tu.gett.com/cancellation_policy_us.html;Missing URL
+us;divisions_data;{"8":{"enabled":true,"max_participants":4},"11":{"enabled":true,"max_participants":4},"12":{"enabled":true,"max_participants":4},"14":{"enabled":true,"max_participants":4},"28":{"enabled":true,"max_participants":4},"29":{"enabled":true,"max_participants":4},"32":{"enabled":true,"max_participants":4},"33":{"enabled":true,"max_participants":4}};{"8":{"enabled":true,"max_participants":4},"11":{"enabled":true,"max_participants":4},"12":{"enabled":true,"max_participants":4},"14":{"enabled":true,"max_participants":4}}
+us;max_allowed;20;5
+us;gms_version_url;https://s3-eu-west-1.amazonaws.com/alpha.gettaxi.com/kiosk/com.google.android.gms-(3.1.36).apk;Missing URL
+us;continue_when_no_drivers;0;1
+us;osrm_areas;65366;-1
+us;max_future_rides;7;4
+us;travel_policy_url;http://travelpolicy.gtforge.com;http://travelpolicy-scrum2.gett.qa/
+us;order_progress_logger_enabled;0;1
+us;commission_service_url;http://commission.gtforge.com/;http://commission-scrum2.gett.qa/
+us;pubnub_service_url;http://pubnub.gtforge.com/;http://pubnub-scrum2.gett.qa/
+us;future_booking_service_settings_enabled;true;0
+us;class_identity_service_url;http://class-identity.gtforge.com/;http://class-identity-scrum2.gett.qa/
+us;redis_host;us-redis.gtforge.com;Missing Value
+us;driver_rating_start_fives_amount;No such key in Production
+us;leumi_widget_production_enabled;false;0
+us;instagram_link;http://instagram.com/gettny;Missing URL
+us;force_resume_radius_meters;300;100
+us;website;http://www.gett.com;Missing URL
+us;nexmo_registry_url;https://rest.nexmo.com/ni/json;Missing URL
+us;show_driver_birthday_overlay;0;1
+us;no_show_fee_amount_to_driver_cents;0;449
+us;retrieve_user_by_card;1;0
+us;trip_get_line_peta_network_timeout;No such key in Scrum
+us;use_pubnub_service;1;0
+us;ordering_service_validation_enabled;No such key in Scrum
+us;advance_booking_timeframe_non_cc;60;14
+us;calculate_fleet_commission;1;0
+us;ping_enabled_timer_secs;120;10
+ru;notices_polling_interval;210;30
+ru;about_url;http://api.gettaxi.ru/server/drivers/pages/about;Missing URL
+ru;login_block_time_minutes;1440;60
+ru;driver_pubnub_update_interval;600000;5000
+ru;new_cti_configurations_enabled;1;0
+ru;all_companies_flag;1;0
+ru;live_heatmaps_service_url;http://liveheatmaps.gtforge.com/;http://liveheatmaps-scrum7.gett.qa/
+ru;sms_day_limit;No such key in Scrum
+ru;production;1;0
+ru;show_destination_in_phone_user_fixed_charge_orders;1;0
+ru;class_availability_service_url;http://class-availability.gtforge.com/;http://class-availability-scrum2.gett.qa/
+ru;bookkeeping_service_url;http://bookkeeping.gtforge.com/;http://bookkeeping-scrum2.gett.qa/
+ru;fallback_recharge_max_attempts;10;6
+ru;notification_service_url;http://notification.gtforge.com/;Missing URL
+ru;send_user_notifications_to_fraud_service;1;0
+ru;client_location_service_url;https://location.gett.com/;http://location-scrum2.gett.qa/
+ru;travel_policy_service_url;http://travelpolicy.gtforge.com;http://travelpolicy-scrum9.gett.qa
+ru;dbx_location_service_url;https://location.gett.com/;http://location-scrum2.gett.qa/
+ru;invitation_service_url;http://invitation.gtforge.com/;http://invitation-qa.gtforge.com/
+ru;kiosk_version_url;https://s3-eu-west-1.amazonaws.com/alpha.gettaxi.com/kiosk/Kiosk_v1.144_lock.apk;Missing URL
+ru;gt_location_publish_interval;3600;30
+ru;add_card_javascript;ZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ2lQQU4nKS52YWx1ZQ==;Missing Value
+ru;driver_responsiveness_threshold;3;10
+ru;drivers_fee_for_ftr_user;500;0
+ru;rides_map_images_cdn;https://rides-map-images.gett.com/;https://rides-map-images-scrum.gett.qa/
+ru;location_proxy_url;http://prod-uk.gtforge.com/server/proxy_locations/geocode;Missing URL
+ru;eta_factor;1.02;1.0
+ru;facebook_link;https://www.facebook.com/Gett.RU;Missing URL
+ru;event_log_enable_for_companies;-1;24
+ru;pass_fraud_info_phase_two;0;1
+ru;osrm_service_url;http://osrm.gtforge.com/;http://osrm-qa.gett.qa/
+ru;populate_order_details_index_toggle;1;0
+ru;geo_search_json;{"pickup_address":[{"api":"google_geocoding","source":"http://maps.googleapis.com/maps/api/geocode/json?&latlng=[LAT,LNG]&language=[SETTINGS]&sensor=true","options":{"support_range":true,"recent_distance":120,"airport_distance":1500,"train_distance":150},"templates":{"address":{"top_row":[{"type":"street"},{"prefix":", ","type":"number"},{"prefix":"к","type":"housing"},{"prefix":"с","type":"building"},{"prefix":"п","type":"entrance"}],"bottom_row":[{"type":"city"}]},"poi":{"top_row":[{"type":"poi_name"}],"bottom_row":[{"type":"street","short":false},{"prefix":", ","type":"number"},{"prefix":"к","type":"housing"},{"prefix":"с","type":"building"},{"prefix":"п","type":"entrance"}]}}}],"search":[{"api":"google_autocomplete","source":"https://maps.googleapis.com/maps/api/place/autocomplete/json?types=establishment|geocode&components=country:ru&radius=500&sensor=true&key=AIzaSyBmgcuoNZLqQG7I51V9dk_mUoadHi438P8&input=[QUERY]&language=[SETTINGS]&location=[LAT,LNG]","templates":{"poi":{"top_row":[{"type":"poi_name"}],"bottom_row":[{"type":"full_address"}]}},"options":{"exclude":["political"]}},{"api":"google_details","source":"https://maps.googleapis.com/maps/api/place/details/json?sensor=true&key=AIzaSyBmgcuoNZLqQG7I51V9dk_mUoadHi438P8&reference=[REFERENCE]&language=[SETTINGS]","source_v2":"https://maps.googleapis.com/maps/api/place/details/json?sensor=true&key=AIzaSyBmgcuoNZLqQG7I51V9dk_mUoadHi438P8&placeid=[PLACE_ID]&language=[SETTINGS]","templates":{"poi":{"top_row":[{"type":"poi_name"}],"bottom_row":[{"type":"street","short":false,"suffix":", "},{"type":"number"},{"prefix":"к","type":"housing"},{"prefix":"с","type":"building"}]},"address":{"top_row":[{"type":"street","short":false,"suffix":", "},{"type":"number"},{"prefix":"к","type":"housing"},{"prefix":"с","type":"building"}],"bottom_row":[{"type":"city"}]}}},{"api":"hardcoded_poi","templates":{"poi":{"top_row":[{"type":"poi_name"}],"bottom_row":[{"type":"full_address"}]},"address":{"top_row":[{"type":"street","short":false,"suffix":", "},{"type":"number"},{"prefix":"к","type":"housing"},{"prefix":"с","type":"building"}],"bottom_row":[{"type":"city"}]}},"options":{"sortby_distance":true,"char_wait":2}},{"api":"cc_pois","templates":{"poi":{"top_row":[{"type":"poi_name"}],"bottom_row":[{"type":"street","short":false,"suffix":", "},{"type":"number"},{"prefix":"к","type":"housing"},{"prefix":"с","type":"building"}]}},"options":{"char_wait":3,"time_wait":1}}],"tabs":[{"type":"recent","api":"hardcoded_poi","title":{"en":"Recent","iw":"נסיעות אחרונות","ru":"Hедавние"},"templates":{"address":{"top_row":[{"type":"street","short":false,"suffix":", "},{"type":"number"},{"prefix":"к","type":"housing"},{"prefix":"с","type":"building"},{"prefix":", ","type":"entrance"}],"bottom_row":[{"type":"city"}]},"poi":{"top_row":[{"type":"poi_name"}],"bottom_row":[{"type":"full_address"}]}},"options":{"sortby_distance":"true"}},{"type":"nearby","api":"google_nearby","source":"https://maps.googleapis.com/maps/api/place/nearbysearch/json?rankby=prominence&types=lodging|store|jewelry_store|train_station|subway_station|shopping_mall|park|museum|bar|night_club|cafe|restaurant|bakery&radius=150&sensor=true&key=AIzaSyBmgcuoNZLqQG7I51V9dk_mUoadHi438P8&location=[LAT,LNG]&language=[SETTINGS]","title":{"en":"Nearby","iw":"מקומות בסביבה","ru":"Поблизости"},"templates":{"poi":{"top_row":[{"type":"poi_name"}],"bottom_row":[{"type":"full_address"}]}},"options":{"title_character_limit":32,"sortby_distance":"true"}},{"language":"ru","type":"airport","api":"hardcoded_poi","options":{"sortby_distance":"true"},"title":{"en":"Airports","iw":"שדות תעופה","ru":"Аэропорты"},"templates":{"poi":{"top_row":[{"type":"poi_name"}]}}},{"language":"en","type":"airport","api":"google_nearby","api_v2":"hardcoded_poi","source":"https://maps.googleapis.com/maps/api/place/nearbysearch/json?keyword=led|svo|dme|vko&location=[LAT,LNG]&rankby=distance&types=airport&language=en&sensor=true&key=AIzaSyB5NQye18ixJrPfzRGdfAIBSOAUFD_dPfA","title":{"en":"Airports","iw":"שדות תעופה","ru":"Аэропорты"},"templates":{"poi":{"top_row":[{"type":"poi_name"}],"bottom_row":[{"type":"full_address"}]}},"templates_v2":{"poi":{"top_row":[{"type":"poi_name"}]}},"options":{"title_character_limit":46,"sortby_distance":"true"}},{"type":"metro","api":"google_nearby","source":"https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=[LAT,LNG]&rankby=prominence&types=subway_station&language=[SETTINGS]&radius=1500&sensor=true&key=AIzaSyBmgcuoNZLqQG7I51V9dk_mUoadHi438P8","title":{"en":"Metro","iw":"רכבת תחתית","ru":"Mетро"},"templates":{"poi":{"top_row":[{"type":"poi_name"}],"bottom_row":[{"type":"full_address"}]}},"options":{"sortby_distance":"true"}},{"language":"ru","type":"train","api":"hardcoded_poi","title":{"en":"Train Stations","iw":"תחנות רכבת","ru":"Bокзалы"},"templates":{"poi":{"top_row":[{"type":"poi_name"}]}},"options":{"sortby_distance":"true"}},{"language":"en","type":"train","api":"google_nearby","api_v2":"hardcoded_poi","source":"https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=[LAT,LNG]&rankby=prominence&types=train_station&language=en&radius=1500&sensor=true&key=AIzaSyBmgcuoNZLqQG7I51V9dk_mUoadHi438P8","title":{"en":"Train Stations","iw":"תחנות רכבת","ru":"Bокзалы"},"templates":{"poi":{"top_row":[{"type":"poi_name"}],"bottom_row":[{"type":"full_address"}]}},"templates_v2":{"poi":{"top_row":[{"type":"poi_name"}]}},"options":{"sortby_distance":"true","exclude":["subway_station","bus_station","transit_station"]}},{"type":"hotels","api":"google_nearby","source":"https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=[LAT,LNG]&rankby=prominence&types=lodging&language=[SETTINGS]&radius=1000&sensor=true&key=AIzaSyBmgcuoNZLqQG7I51V9dk_mUoadHi438P8","title":{"en":"Hotels","iw":"מלונות","ru":"Отели"},"templates":{"poi":{"top_row":[{"type":"poi_name"}],"bottom_row":[{"type":"full_address"}]}},"options":{"sortby_distance":"true","exclude":["health"]}},{"type":"restaurants","api":"google_nearby","source":"https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=[LAT,LNG]&rankby=prominence&types=restaurant|cafe|bakery&language=[SETTINGS]&radius=1000&sensor=true&key=AIzaSyBmgcuoNZLqQG7I51V9dk_mUoadHi438P8","title":{"en":"Restaurants","iw":"מסעדות","ru":"Рестораны"},"templates":{"poi":{"top_row":[{"type":"poi_name"}],"bottom_row":[{"type":"full_address"}]}},"options":{"sortby_distance":"true"}}]};{"pickup_address":[{"api":"google_geocoding","source":"http://maps.googleapis.com/maps/api/geocode/json?&latlng=[LAT,LNG]&language=[SETTINGS]&sensor=true","options":{"support_range":true,"recent_distance":120,"airport_distance":1500,"train_distance":150},"templates":{"address":{"top_row":[{"type":"street"},{"prefix":", ","type":"number"},{"prefix":"к","type":"housing"},{"prefix":"с","type":"building"},{"prefix":"п","type":"entrance"}],"bottom_row":[{"type":"city"}]},"poi":{"top_row":[{"type":"poi_name"}],"bottom_row":[{"type":"street","short":true},{"prefix":", ","type":"number"},{"prefix":"к","type":"housing"},{"prefix":"с","type":"building"},{"prefix":"п","type":"entrance"}]}}}],"search":[{"api":"google_autocomplete","source":"https://maps.googleapis.com/maps/api/place/autocomplete/json?types=establishment|geocode&components=country:ru&radius=500&sensor=true&key=AIzaSyBmgcuoNZLqQG7I51V9dk_mUoadHi438P8&input=[QUERY]&language=[SETTINGS]&location=[LAT,LNG]","templates":{"poi":{"top_row":[{"type":"poi_name"}],"bottom_row":[{"type":"full_address"}]}},"options":{"exclude":["political"]}},{"api":"google_details","source":"https://maps.googleapis.com/maps/api/place/details/json?sensor=true&key=AIzaSyBmgcuoNZLqQG7I51V9dk_mUoadHi438P8&reference=[REFERENCE]&language=[SETTINGS]","source_v2":"https://maps.googleapis.com/maps/api/place/details/json?sensor=true&key=AIzaSyBmgcuoNZLqQG7I51V9dk_mUoadHi438P8&placeid=[PLACE_ID]&language=[SETTINGS]","templates":{"poi":{"top_row":[{"type":"poi_name"}],"bottom_row":[{"type":"street","short":true,"suffix":", "},{"type":"number"},{"prefix":"к","type":"housing"},{"prefix":"с","type":"building"}]},"address":{"top_row":[{"type":"street","short":true,"suffix":", "},{"type":"number"},{"prefix":"к","type":"housing"},{"prefix":"с","type":"building"}],"bottom_row":[{"type":"city"}]}}},{"api":"hardcoded_poi","templates":{"poi":{"top_row":[{"type":"poi_name"}],"bottom_row":[{"type":"full_address"}]},"address":{"top_row":[{"type":"street","short":true,"suffix":", "},{"type":"number"},{"prefix":"к","type":"housing"},{"prefix":"с","type":"building"}],"bottom_row":[{"type":"city"}]}},"options":{"sortby_distance":true,"char_wait":2}},{"api":"cc_pois","templates":{"poi":{"top_row":[{"type":"poi_name"}],"bottom_row":[{"type":"street","short":true,"suffix":", "},{"type":"number"},{"prefix":"к","type":"housing"},{"prefix":"с","type":"building"}]}},"options":{"char_wait":3,"time_wait":1}}],"tabs":[{"type":"recent","api":"hardcoded_poi","title":{"en":"Recent","iw":"נסיעות אחרונות","ru":"Hедавние"},"templates":{"address":{"top_row":[{"type":"street","short":true,"suffix":", "},{"type":"number"},{"prefix":"к","type":"housing"},{"prefix":"с","type":"building"},{"prefix":", ","type":"entrance"}],"bottom_row":[{"type":"city"}]},"poi":{"top_row":[{"type":"poi_name"}],"bottom_row":[{"type":"full_address"}]}},"options":{"sortby_distance":"true"}},{"type":"nearby","api":"google_nearby","source":"https://maps.googleapis.com/maps/api/place/nearbysearch/json?rankby=prominence&types=lodging|store|jewelry_store|train_station|subway_station|shopping_mall|park|museum|bar|night_club|cafe|restaurant|bakery&radius=150&sensor=true&key=AIzaSyBmgcuoNZLqQG7I51V9dk_mUoadHi438P8&location=[LAT,LNG]&language=[SETTINGS]","title":{"en":"Nearby","iw":"מקומות בסביבה","ru":"Поблизости"},"templates":{"poi":{"top_row":[{"type":"poi_name"}],"bottom_row":[{"type":"full_address"}]}},"options":{"title_character_limit":32,"sortby_distance":"true"}},{"language":"ru","type":"airport","api":"hardcoded_poi","options":{"sortby_distance":"true"},"title":{"en":"Airports","iw":"שדות תעופה","ru":"Аэропорты"},"templates":{"poi":{"top_row":[{"type":"poi_name"}]}}},{"language":"en","type":"airport","api":"google_nearby","api_v2":"hardcoded_poi","source":"https://maps.googleapis.com/maps/api/place/nearbysearch/json?keyword=led|svo|dme|vko&location=[LAT,LNG]&rankby=distance&types=airport&language=en&sensor=true&key=AIzaSyB5NQye18ixJrPfzRGdfAIBSOAUFD_dPfA","title":{"en":"Airports","iw":"שדות תעופה","ru":"Аэропорты"},"templates":{"poi":{"top_row":[{"type":"poi_name"}],"bottom_row":[{"type":"full_address"}]}},"templates_v2":{"poi":{"top_row":[{"type":"poi_name"}]}},"options":{"title_character_limit":46,"sortby_distance":"true"}},{"type":"metro","api":"google_nearby","source":"https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=[LAT,LNG]&rankby=prominence&types=subway_station&language=[SETTINGS]&radius=1500&sensor=true&key=AIzaSyBmgcuoNZLqQG7I51V9dk_mUoadHi438P8","title":{"en":"Metro","iw":"רכבת תחתית","ru":"Mетро"},"templates":{"poi":{"top_row":[{"type":"poi_name"}],"bottom_row":[{"type":"full_address"}]}},"options":{"sortby_distance":"true"}},{"language":"ru","type":"train","api":"hardcoded_poi","title":{"en":"Train Stations","iw":"תחנות רכבת","ru":"Bокзалы"},"templates":{"poi":{"top_row":[{"type":"poi_name"}]}},"options":{"sortby_distance":"true"}},{"language":"en","type":"train","api":"google_nearby","api_v2":"hardcoded_poi","source":"https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=[LAT,LNG]&rankby=prominence&types=train_station&language=en&radius=1500&sensor=true&key=AIzaSyBmgcuoNZLqQG7I51V9dk_mUoadHi438P8","title":{"en":"Train Stations","iw":"תחנות רכבת","ru":"Bокзалы"},"templates":{"poi":{"top_row":[{"type":"poi_name"}],"bottom_row":[{"type":"full_address"}]}},"templates_v2":{"poi":{"top_row":[{"type":"poi_name"}]}},"options":{"sortby_distance":"true","exclude":["subway_station","bus_station","transit_station"]}},{"type":"hotels","api":"google_nearby","source":"https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=[LAT,LNG]&rankby=prominence&types=lodging&language=[SETTINGS]&radius=1000&sensor=true&key=AIzaSyBmgcuoNZLqQG7I51V9dk_mUoadHi438P8","title":{"en":"Hotels","iw":"מלונות","ru":"Отели"},"templates":{"poi":{"top_row":[{"type":"poi_name"}],"bottom_row":[{"type":"full_address"}]}},"options":{"sortby_distance":"true","exclude":["health"]}},{"type":"restaurants","api":"google_nearby","source":"https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=[LAT,LNG]&rankby=prominence&types=restaurant|cafe|bakery&language=[SETTINGS]&radius=1000&sensor=true&key=AIzaSyBmgcuoNZLqQG7I51V9dk_mUoadHi438P8","title":{"en":"Restaurants","iw":"מסעדות","ru":"Рестораны"},"templates":{"poi":{"top_row":[{"type":"poi_name"}],"bottom_row":[{"type":"full_address"}]}},"options":{"sortby_distance":"true"}}]}
+ru;show_payment_type;0;3
+ru;channel_prefix;dbx.production.ru;0099d533fadba24f16dd6ab966ab4c3b;0099d533fadba24f16dd6ab966ab4c3b
+ru;short_code_service_url;http://gtag.gtforge.com/;http://gtag-scrum2.gett.qa/
+ru;final_map_distance;1000;3000
+ru;initial_map_distance;200;700
+ru;access_key_id;AKIAJDPGZWADYR3LVPYA;AKIAI2YTYVIAOW54CJNA
+ru;order_locked_cache_ttl;86400;1
+ru;pre_eta_service_url;https://preeta.gtforge.com;localhost
+ru;enable_distance_time_table_cache;1;0
+ru;supplier_areas_queues_service_url;http://saq.gtforge.com/;http://saq-scrum7.gett.qa/
+ru;filter_previous_ignored_rejected_drivers;1;0
+ru;google_directions_estimations_enabled;0;1
+ru;offer_eta_to_pickup_timeout;0.2;0.03
+ru;ranking_limitation_to_accept;101;60
+ru;gateway_service_url;http://sgw.gtforge.com/;Missing URL
+ru;twitter_link;https://twitter.com/gett_ru;Missing URL
+ru;default_radio;no;relax
+ru;analytics_token;83a4a8f8feed6fb3e0b04e87bcc53335;Missing Value
+ru;charging_service_url;http://charging.gtforge.com;http://charging-scrum2.gett.qa
+ru;trip_service_url;http://trip.gtforge.com/;http://trip-qa.gett.qa/
+ru;mapquest_matrix_url;http://www.mapquestapi.com/directions/v2/routematrix;Missing URL
+ru;pricing_service_url;http://pricing.gtforge.com/;http://pricing-scrum2.gett.qa/
+ru;coupon_service_code_activation;true;false
+ru;drivers_list_radius;3;0.05
+ru;arm_service_url;http://arm.gtforge.com/;http://arm-scrum6.gett.qa/
+ru;sms_throttling;No such key in Production
+ru;fallback_invite_friends_amount;100;400
+ru;api_base_url;https://auth_4699198b788fe2ddd6e6@pms.gtforge.com/api;http://admin_token:@pms-scrum2.gett.qa/api
+ru;driver_rating_last_rides;150;50
+ru;invite_friends_coupon_service;true;false
+ru;default_circuit_breaker_failure_threshold;10;3
+ru;appsflyer_url;http://api2.appsflyer.com/inappevent/;Missing URL
+ru;loyalty_deeplink_url;.;Missing URL
+ru;wave_extra_rule_area_id;;3313
+ru;reports_server_url;reports.ru.gett.com;Missing URL
+ru;supplier_order_user_id;4606792;4106607
+ru;area_id_for_queue_routing;1490;-1
+ru;fallback_recharge_max_per_batch;45;50
+ru;invitee_amount;1500;400
+ru;supply_gateway_service_url;https://supplygateway.gett.com/;http://supplygateway-qa.gett.qa/
+ru;blog_link;http://gett.com/ru/blog/;Missing URL
+ru;by_area;1;0
+ru;media_service_url;http://media.gtforge.com/;http://media-scrum2.gett.qa/
+ru;minimal_order_price_for_driver_fee;0;500
+ru;show_max_wave_length_to_clients;No such key in Scrum
+ru;flight_details_cache_ttl;600;60
+ru;line_service_url;http://line.gtforge.com/;http://line-qa.gett.qa/
+ru;future_booking_service_url;http://futureorder.gtforge.com/;Missing URL
+ru;landing_page_url_template;http://invite-ru.gett.com/code/%{coupon_code};http://invite-scrum2.gett.qa/code/%{coupon_code}
+ru;acceptance_prediction_service_url;http://acceptance-prediction.gtforge.com/;http://acceptance-prediction-qa.gett.qa/
+ru;reward_coupon_validity_period;60;90
+ru;type;3;2
+ru;monitoring_relay_service_url;http://monitoring-relay.gtforge.com/;http://relayscrum.gett.qa/
+ru;valid_time_value;60;600
+ru;notify_list;doron@gettaxi.com, bezdudnaya.valeria@gettaxi.com, phbelov@gettaxi.com, vasko@gett.com, Petrov@gettaxi.com,german@gettaxi.com,maurina@gettaxi.com,vladlen@gettaxi.com;
+ru;send_routing_event;1;0
+ru;area_service_url;http://area.gtforge.com/;http://area-scrum2.gett.qa/
+ru;rides_map_images_bucket_name;rides-map-images;rides-map-images-scrum
+ru;adx_url;http://apps.ad-x.co.uk/API;Missing URL
+ru;client_gateway_service_url;https://clientgateway.gett.com/;http://clientgateway-qa.gett.qa/
+ru;ftr_coupon;1;0
+ru;order_polling_interval;No such key in Scrum
+ru;enable_force_autopay_on_auth_failure;0;1
+ru;business_signup_marketing_url;enter valid url here;Missing URL
+ru;min_offer_distance_for_auto_approval;10000;200
+ru;wave_extra_rule_radius_factor;1;0.5
+ru;cancellation_enabled_timer_secs;240;120
+ru;inviter_amount;350;400
+ru;pay_with_gett_connect_to_drivers_counter_expiration_time_in_minutes;5;15
+ru;use_supply_gateway;1;0
+ru;enabled;true;false
+ru;invite_buttons;2;1
+ru;cc_otp_pass_enabled;1;0
+ru;default_stream;gett-kinesis-prod;gett-kinesis-qa
+ru;add_credit_cards_to_company_or_private_web;false;true
+ru;location_service_url;http://location-int.gett.com/;http://location-scrum2.gett.qa/
+ru;ordering_service_url;http://ordering.gtforge.com/;http://ordering-scrum2.gett.qa/
+ru;use_commission_for_fees;0;1
+ru;singular_url;https://t.singular.net/s2s/events;Missing URL
+ru;location_service_tries_on_timeout;20;5
+ru;reports_service_url;http://reports.gtforge.com/;http://reports-scrum2.gett.qa/
+ru;url;localhost:3000;http://test@hub-scrum2.gett.qa/;Missing URL
+ru;location_service_routing_data_timeout;0.3;0.03
+ru;ftr_coupon_value;500;0
+ru;show_ob_alerts_page;false;true
+ru;enable_destination_flags;1;0
+ru;confirmation_sms_maximum_tries_before_blocking;No such key in Scrum
+ru;marketing_popup_timeout_threshold;1000;200
+ru;ru_operations_batch_size;300;2000
+ru;send_commission_text_to_mobile_enabled;false;true
+ru;coupon_service_url;http://coupon.gtforge.com/;http://coupon-scrum2.gett.qa/
+ru;celeb_campaign_divisions;79;59
+ru;secret_access_key;kEnBZ6JWHmqWyyB7NyK3B4iREvFcymEjDjh/zxdh;DF2893FksK6ymnJh5v5U7E/2glx1fmrcd876xGH6
+ru;active;No such key in Scrum
+ru;driver_info_from_location_service;1;0
+ru;webhook_service_url;http://webhook.gtforge.com/;http://webhook-qa.gett.qa/
+ru;update_driver_info_by_driver;0;1
+ru;process_pending_offers;0;1
+ru;policy_url;https://s3.amazonaws.com/tu.gett.com/cancellation_policy_ru.html;Missing URL
+ru;divisions_data;{"16":{"enabled":true,"max_participants":4},"20":{"enabled":true,"max_participants":4},"24":{"enabled":true,"max_participants":4},"25":{"enabled":true,"max_participants":4},"26":{"enabled":true,"max_participants":4},"27":{"enabled":true,"max_participants":6},"28":{"enabled":true,"max_participants":4},"29":{"enabled":true,"max_participants":4},"30":{"enabled":true,"max_participants":4},"31":{"enabled":true,"max_participants":4},"32":{"enabled":true,"max_participants":4},"33":{"enabled":true,"max_participants":4},"34":{"enabled":true,"max_participants":6},"35":{"enabled":true,"max_participants":4},"36":{"enabled":true,"max_participants":4},"37":{"enabled":true,"max_participants":4},"38":{"enabled":true,"max_participants":4},"39":{"enabled":true,"max_participants":4},"40":{"enabled":true,"max_participants":4},"41":{"enabled":true,"max_participants":4},"42":{"enabled":true,"max_participants":4},"43":{"enabled":true,"max_participants":4},"44":{"enabled":true,"max_participants":4},"45":{"enabled":true,"max_participants":4},"46":{"enabled":true,"max_participants":4},"47":{"enabled":true,"max_participants":4},"48":{"enabled":true,"max_participants":4},"49":{"enabled":true,"max_participants":4},"50":{"enabled":true,"max_participants":4},"51":{"enabled":true,"max_participants":4},"52":{"enabled":true,"max_participants":4},"53":{"enabled":true,"max_participants":4},"54":{"enabled":true,"max_participants":4},"55":{"enabled":true,"max_participants":4},"56":{"enabled":true,"max_participants":4},"57":{"enabled":true,"max_participants":4},"58":{"enabled":true,"max_participants":4},"59":{"enabled":true,"max_participants":4},"60":{"enabled":true,"max_participants":4},"63":{"enabled":true,"max_participants":4},"64":{"enabled":true,"max_participants":4},"65":{"enabled":true,"max_participants":4},"66":{"enabled":true,"max_participants":4},"67":{"enabled":true,"max_participants":4},"68":{"enabled":true,"max_participants":4},"69":{"enabled":true,"max_participants":4},"70":{"enabled":true,"max_participants":4},"71":{"enabled":true,"max_participants":4},"72":{"enabled":true,"max_participants":4},"73":{"enabled":true,"max_participants":4},"74":{"enabled":true,"max_participants":4},"75":{"enabled":true,"max_participants":4},"76":{"enabled":true,"max_participants":4},"79":{"enabled":true,"max_participants":4},"80":{"enabled":true,"max_participants":4},"81":{"enabled":true,"max_participants":4},"82":{"enabled":true,"max_participants":4},"83":{"enabled":true,"max_participants":4},"84":{"enabled":true,"max_participants":4},"85":{"enabled":true,"max_participants":4},"86":{"enabled":true,"max_participants":4},"87":{"enabled":true,"max_participants":4},"88":{"enabled":true,"max_participants":4},"89":{"enabled":true,"max_participants":4},"90":{"enabled":true,"max_participants":4},"91":{"enabled":true,"max_participants":4},"92":{"enabled":true,"max_participants":4},"93":{"enabled":true,"max_participants":4},"94":{"enabled":true,"max_participants":4},"95":{"enabled":true,"max_participants":4},"96":{"enabled":true,"max_participants":4},"97":{"enabled":true,"max_participants":4},"98":{"enabled":true,"max_participants":4},"99":{"enabled":true,"max_participants":4},"100":{"enabled":true,"max_participants":4},"101":{"enabled":true,"max_participants":4},"102":{"enabled":true,"max_participants":4},"103":{"enabled":true,"max_participants":4},"104":{"enabled":true,"max_participants":4},"105":{"enabled":true,"max_participants":4},"106":{"enabled":true,"max_participants":4},"107":{"enabled":true,"max_participants":4},"108":{"enabled":true,"max_participants":4},"109":{"enabled":true,"max_participants":4},"110":{"enabled":true,"max_participants":4},"111":{"enabled":true,"max_participants":4},"112":{"enabled":true,"max_participants":4},"113":{"enabled":true,"max_participants":4},"114":{"enabled":true,"max_participants":4},"115":{"enabled":true,"max_participants":4},"116":{"enabled":true,"max_participants":4},"117":{"enabled":true,"max_participants":4},"118":{"enabled":true,"max_participants":4},"119":{"enabled":true,"max_participants":4},"120":{"enabled":true,"max_participants":4},"121":{"enabled":true,"max_participants":4},"122":{"enabled":true,"max_participants":4},"123":{"enabled":true,"max_participants":4},"125":{"enabled":true,"max_participants":4},"127":{"enabled":true,"max_participants":4},"133":{"enabled":true,"max_participants":4},"135":{"enabled":true,"max_participants":4},"140":{"enabled":true,"max_participants":4},"141":{"enabled":true,"max_participants":4},"142":{"enabled":true,"max_participants":4},"143":{"enabled":true,"max_participants":4},"144":{"enabled":true,"max_participants":4},"145":{"enabled":true,"max_participants":4},"146":{"enabled":true,"max_participants":4},"147":{"enabled":true,"max_participants":4},"148":{"enabled":true,"max_participants":4},"149":{"enabled":true,"max_participants":4},"150":{"enabled":true,"max_participants":4},"151":{"enabled":true,"max_participants":4},"152":{"enabled":true,"max_participants":4},"154":{"enabled":true,"max_participants":4},"155":{"enabled":true,"max_participants":4},"156":{"enabled":true,"max_participants":4},"158":{"enabled":true,"max_participants":4},"159":{"enabled":true,"max_participants":4},"160":{"enabled":true,"max_participants":4},"162":{"enabled":true,"max_participants":4},"163":{"enabled":true,"max_participants":4},"164":{"enabled":true,"max_participants":4},"165":{"enabled":true,"max_participants":4},"166":{"enabled":true,"max_participants":4},"167":{"enabled":true,"max_participants":4},"168":{"enabled":true,"max_participants":4},"169":{"enabled":true,"max_participants":4},"170":{"enabled":true,"max_participants":4},"171":{"enabled":true,"max_participants":4},"174":{"enabled":true,"max_participants":4},"175":{"enabled":true,"max_participants":4},"176":{"enabled":true,"max_participants":4},"177":{"enabled":true,"max_participants":4},"178":{"enabled":true,"max_participants":4},"179":{"enabled":true,"max_participants":4},"180":{"enabled":true,"max_participants":4},"181":{"enabled":true,"max_participants":4},"182":{"enabled":true,"max_participants":4},"183":{"enabled":true,"max_participants":4},"184":{"enabled":true,"max_participants":4},"185":{"enabled":true,"max_participants":4},"186":{"enabled":true,"max_participants":4},"187":{"enabled":true,"max_participants":4},"188":{"enabled":true,"max_participants":4},"189":{"enabled":true,"max_participants":4},"190":{"enabled":true,"max_participants":4},"191":{"enabled":true,"max_participants":4},"192":{"enabled":true,"max_participants":4},"193":{"enabled":true,"max_participants":4},"194":{"enabled":true,"max_participants":4},"208":{"enabled":true,"max_participants":4},"209":{"enabled":true,"max_participants":4},"210":{"enabled":true,"max_participants":4},"211":{"enabled":true,"max_participants":4},"212":{"enabled":true,"max_participants":4},"213":{"enabled":true,"max_participants":4},"214":{"enabled":true,"max_participants":6},"215":{"enabled":true,"max_participants":4},"216":{"enabled":true,"max_participants":4},"217":{"enabled":true,"max_participants":4},"218":{"enabled":true,"max_participants":4},"219":{"enabled":true,"max_participants":4},"220":{"enabled":true,"max_participants":4},"223":{"enabled":true,"max_participants":6},"225":{"enabled":true,"max_participants":4},"226":{"enabled":true,"max_participants":4},"227":{"enabled":true,"max_participants":4},"228":{"enabled":true,"max_participants":4},"229":{"enabled":true,"max_participants":4},"230":{"enabled":true,"max_participants":4},"231":{"enabled":true,"max_participants":4},"232":{"enabled":true,"max_participants":4}};{"20":{"enabled":true,"max_participants":4},"24":{"enabled":true,"max_participants":4},"25":{"enabled":true,"max_participants":4},"26":{"enabled":true,"max_participants":4},"27":{"enabled":true,"max_participants":4},"28":{"enabled":true,"max_participants":4},"29":{"enabled":true,"max_participants":4},"30":{"enabled":true,"max_participants":4},"31":{"enabled":true,"max_participants":4},"32":{"enabled":true,"max_participants":4},"33":{"enabled":true,"max_participants":4},"34":{"enabled":true,"max_participants":4},"35":{"enabled":true,"max_participants":4},"36":{"enabled":true,"max_participants":4},"37":{"enabled":true,"max_participants":4},"38":{"enabled":true,"max_participants":4},"39":{"enabled":true,"max_participants":4},"40":{"enabled":true,"max_participants":4},"41":{"enabled":true,"max_participants":4},"42":{"enabled":true,"max_participants":4},"43":{"enabled":true,"max_participants":4},"44":{"enabled":true,"max_participants":4},"45":{"enabled":true,"max_participants":4},"46":{"enabled":true,"max_participants":4},"47":{"enabled":true,"max_participants":4},"48":{"enabled":true,"max_participants":4},"49":{"enabled":true,"max_participants":4},"50":{"enabled":true,"max_participants":4},"51":{"enabled":true,"max_participants":4},"52":{"enabled":true,"max_participants":4},"53":{"enabled":true,"max_participants":4},"54":{"enabled":true,"max_participants":4},"55":{"enabled":true,"max_participants":4},"56":{"enabled":true,"max_participants":4},"57":{"enabled":true,"max_participants":4},"58":{"enabled":true,"max_participants":4},"59":{"enabled":true,"max_participants":4},"60":{"enabled":true,"max_participants":4},"63":{"enabled":true,"max_participants":4},"64":{"enabled":true,"max_participants":4},"65":{"enabled":true,"max_participants":4},"66":{"enabled":true,"max_participants":4},"67":{"enabled":true,"max_participants":4},"68":{"enabled":true,"max_participants":4},"69":{"enabled":true,"max_participants":4},"70":{"enabled":true,"max_participants":4},"71":{"enabled":true,"max_participants":4},"72":{"enabled":true,"max_participants":4},"73":{"enabled":true,"max_participants":4},"74":{"enabled":true,"max_participants":4},"75":{"enabled":true,"max_participants":4},"76":{"enabled":true,"max_participants":4},"79":{"enabled":true,"max_participants":4},"80":{"enabled":true,"max_participants":4},"81":{"enabled":true,"max_participants":4},"82":{"enabled":true,"max_participants":4},"83":{"enabled":true,"max_participants":4},"84":{"enabled":true,"max_participants":4},"85":{"enabled":true,"max_participants":4},"86":{"enabled":true,"max_participants":4},"87":{"enabled":true,"max_participants":4},"88":{"enabled":true,"max_participants":4},"89":{"enabled":true,"max_participants":4},"90":{"enabled":true,"max_participants":4},"91":{"enabled":true,"max_participants":4},"92":{"enabled":true,"max_participants":4},"93":{"enabled":true,"max_participants":4},"94":{"enabled":true,"max_participants":4},"95":{"enabled":true,"max_participants":4},"96":{"enabled":true,"max_participants":4},"97":{"enabled":true,"max_participants":4},"98":{"enabled":true,"max_participants":4},"99":{"enabled":true,"max_participants":4},"100":{"enabled":true,"max_participants":4},"101":{"enabled":true,"max_participants":4},"102":{"enabled":true,"max_participants":4},"103":{"enabled":true,"max_participants":4},"104":{"enabled":true,"max_participants":4},"105":{"enabled":true,"max_participants":4},"106":{"enabled":true,"max_participants":4},"107":{"enabled":true,"max_participants":4},"108":{"enabled":true,"max_participants":4},"109":{"enabled":true,"max_participants":4},"110":{"enabled":true,"max_participants":4},"111":{"enabled":true,"max_participants":4},"112":{"enabled":true,"max_participants":4},"113":{"enabled":true,"max_participants":4},"114":{"enabled":true,"max_participants":4},"115":{"enabled":true,"max_participants":4},"116":{"enabled":true,"max_participants":4},"117":{"enabled":true,"max_participants":4},"118":{"enabled":true,"max_participants":4},"119":{"enabled":true,"max_participants":4},"120":{"enabled":true,"max_participants":4},"121":{"enabled":true,"max_participants":4},"122":{"enabled":true,"max_participants":4}}
+ru;fleet_map_on_location_service;1;0
+ru;enable_account_blocking_on_telesign_phone_fraud_detection;1;0
+ru;dbx_driving_distance_adjustment_limit_percent;0;5
+ru;login_retries_time_range_minutes;1440;60
+ru;gms_version_url;https://s3-eu-west-1.amazonaws.com/alpha.gettaxi.com/kiosk/com.google.android.gms_3136.apk;Missing URL
+ru;gap_between_assigned_orders;120;180
+ru;continue_when_no_drivers;0;1
+ru;osrm_areas;73947;-1
+ru;travel_policy_url;http://travelpolicy.gtforge.com;http://travelpolicy-qa.gett.qa/
+ru;show_marketing_popup_only_once_a_day;false;true
+ru;drivers_count_from_location;5;7
+ru;order_progress_logger_enabled;0;1
+ru;commission_service_url;http://commission.gtforge.com/;http://commission-scrum2.gett.qa/
+ru;pubnub_service_url;http://pubnub.gtforge.com/;http://pubnub-qa.gett.qa/
+ru;show_destination_in_order;0;1
+ru;default_network_timeout;6;3
+ru;class_identity_service_url;http://class-identity.gtforge.com/;http://class-identity-scrum2.gett.qa/
+ru;schedule_timeout;20;30
+ru;redis_host;ru-redis.gtforge.com;Missing Value
+ru;driver_rating_start_fives_amount;No such key in Production
+ru;leumi_widget_production_enabled;false;0
+ru;instagram_link;https://instagram.com/gett_russia;Missing URL
+ru;website;http://www.gett.com/ru;Missing URL
+ru;nexmo_registry_url;https://rest.nexmo.com/ni/json;Missing URL
+ru;send_heatmaps_events;1;0
+ru;pay_with_gett_driver_list_maximum_tries_before_blocking;10;3
+ru;retrieve_user_by_card;1;0
+ru;default_driving_type;fast;normal
+ru;pay_with_gett_driver_list_counter_expiration_time_in_minutes;60;15
+ru;use_pubnub_service;1;0
+ru;ordering_service_validation_enabled;No such key in Scrum
+ru;advance_booking_timeframe_non_cc;32;14
+ru;ping_enabled_timer_secs;360;60
+il;notices_polling_interval;10;30
+il;about_url;http://api.gettaxi.com/server/drivers/pages/about;Missing URL
+il;driver_pubnub_update_interval;600000;5000
+il;bundel_radius_meters;3000;4000
+il;all_companies_flag;1;0
+il;live_heatmaps_service_url;http://liveheatmaps.gtforge.com/;http://liveheatmaps-scrum2.gett.qa/
+il;pricing_resource_cache_ttl;3600;60
+il;production;1;0
+il;show_fix_price_for_private_main_screen;0;1
+il;class_availability_service_url;http://class-availability.gtforge.com/;http://class-availability-scrum2.gett.qa/
+il;validate_charge_amount;200;0
+il;bookkeeping_service_url;http://bookkeeping.gtforge.com/;http://bookkeeping-scrum2.gett.qa/
+il;fallback_recharge_max_attempts;10;7
+il;notification_service_url;http://notification.gtforge.com/;Missing URL
+il;send_user_notifications_to_fraud_service;1;0
+il;client_location_service_url;https://location.gett.com/;http://location-scrum2.gett.qa/
+il;travel_policy_service_url;http://travelpolicy.gtforge.com;http://travelpolicy-scrum2.gett.qa
+il;dbx_location_service_url;https://location.gett.com/;http://location-scrum2.gett.qa/
+il;invitation_service_url;http://invitation.gtforge.com/;http://invitation-scrum2.gett.qa/
+il;mark_reference_stop_points_as_actual;1;0
+il;kiosk_version_url;https://s3-eu-west-1.amazonaws.com/alpha.gettaxi.com/kiosk/Kiosk_v1.143_lock.apk;Missing URL
+il;gt_location_publish_interval;3600;30
+il;disallow_future_rides_for_phones;1;0
+il;add_card_javascript;nil;Missing Value
+il;driver_responsiveness_threshold;3;10
+il;drivers_fee_for_ftr_user;50;0
+il;rides_map_images_cdn;https://rides-map-images.gett.com/;https://rides-map-images-scrum.gett.qa/
+il;num_extra_drivers;1946;1210;1210
+il;location_proxy_url;http://prod-uk.gtforge.com/server/proxy_locations/geocode;Missing URL
+il;eta_factor;0.76;1.0
+il;facebook_link;https://www.facebook.com/Gett.il;Missing URL
+il;event_log_enable_for_companies;-1;24
+il;pass_fraud_info_phase_two;false;1
+il;pre_eta_enabled;1;0
+il;osrm_service_url;http://osrm.gtforge.com/;http://osrm-qa.gett.qa/
+il;geo_search_json;{"pickup_address":[{"api":"google_geocoding","source":"http://maps.googleapis.com/maps/api/geocode/json?&latlng=[LAT,LNG]&language=[SETTINGS]&sensor=true","options":{"support_range":true,"recent_distance":120,"airport_distance":500,"train_distance":150,"exclude":["political"]},"templates":{"address":{"top_row":[{"type":"street","suffix":" "},{"type":"number"}],"bottom_row":[{"type":"city"}]},"poi":{"top_row":[{"type":"poi_name"}],"bottom_row":[{"type":"street","suffix":", "},{"type":"number","suffix":", "},{"type":"city"}]}}}],"search":[{"api":"google_autocomplete","source":"https://maps.googleapis.com/maps/api/place/autocomplete/json?input=[QUERY]&language=[SETTINGS]&types=establishment|geocode&location=[LAT,LNG]&radius=500&sensor=true&key=AIzaSyBmgcuoNZLqQG7I51V9dk_mUoadHi438P8","templates":{"poi":{"top_row":[{"type":"poi_name"}],"bottom_row":[{"type":"full_address"}]}},"options":{"exclude":["political","neighborhood"]}},{"api":"google_details","source":"https://maps.googleapis.com/maps/api/place/details/json?sensor=true&key=AIzaSyBmgcuoNZLqQG7I51V9dk_mUoadHi438P8&reference=[REFERENCE]&language=[SETTINGS]","source_v2":"https://maps.googleapis.com/maps/api/place/details/json?sensor=true&key=AIzaSyBmgcuoNZLqQG7I51V9dk_mUoadHi438P8&placeid=[PLACE_ID]&language=[SETTINGS]","templates":{"poi":{"top_row":[{"type":"poi_name"}],"bottom_row":[{"type":"full_address"}]},"address":{"top_row":[{"type":"street","suffix":" "},{"type":"number"}],"bottom_row":[{"type":"city"}]}}},{"api":"hardcoded_poi","templates":{"poi":{"top_row":[{"type":"poi_name"}],"bottom_row":[{"type":"full_address"}]},"address":{"top_row":[{"type":"street","suffix":" "},{"type":"number"}],"bottom_row":[{"type":"city"}]}},"options":{"sortby_distance":true,"char_wait":2}},{"api":"cc_pois","templates":{"poi":{"top_row":[{"type":"poi_name"}],"bottom_row":[{"type":"street","suffix":" "},{"type":"number","suffix":", "},{"type":"city"}]}},"options":{"char_wait":2}}],"tabs":[{"type":"recent","api":"hardcoded_poi","title":{"en":"Recent","iw":"כתובות אחרונות","ru":"Hедавние"},"templates":{"address":{"top_row":[{"type":"street","suffix":" "},{"type":"number"}],"bottom_row":[{"type":"city"}]},"poi":{"top_row":[{"type":"poi_name"}],"bottom_row":[{"type":"full_address"}]}},"options":{"sortby_distance":"true"}},{"language":"iw","type":"nearby","api":"google_nearby","source":"https://maps.googleapis.com/maps/api/place/nearbysearch/json?rankby=prominence&types=establishment|cafe|restaurant|restaurant|bakery|lodging&radius=200&sensor=true&key=AIzaSyBmgcuoNZLqQG7I51V9dk_mUoadHi438P8&location=[LAT,LNG]&language=iw","title":{"en":"Nearby","iw":"מקומות בסביבה","ru":"Поблизости"},"templates":{"poi":{"top_row":[{"type":"poi_name"}],"bottom_row":[{"type":"full_address"}]}},"options":{"title_character_limit":34,"sortby_distance":true}},{"language":"en","type":"nearby","api":"google_nearby","source":"https://maps.googleapis.com/maps/api/place/nearbysearch/json?rankby=prominence&types=establishment|cafe|restaurant|restaurant|bakery|lodging&radius=200&sensor=true&key=AIzaSyBmgcuoNZLqQG7I51V9dk_mUoadHi438P8&location=[LAT,LNG]&language=en","title":{"en":"Nearby","iw":"מקומות בסביבה","ru":"поблизости"},"templates":{"poi":{"top_row":[{"type":"poi_name"}],"bottom_row":[{"type":"full_address"}]}},"options":{"title_character_limit":34,"sortby_distance":"true"}},{"language":"iw","type":"airport","api":"hardcoded_poi","title":{"en":"Airports","iw":"שדות תעופה","ru":"Аэропорты"},"templates":{"poi":{"top_row":[{"type":"poi_name"}],"bottom_row":[{"type":"city"}]}},"options":{"sortby_distance":"true"}},{"language":"en","type":"airport","api":"google_nearby","api_v2":"hardcoded_poi","source":"https://maps.googleapis.com/maps/api/place/nearbysearch/json?keyword=airport&location=[LAT,LNG]&rankby=prominence&radius=50000&types=airport&language=en&sensor=true&key=AIzaSyBmgcuoNZLqQG7I51V9dk_mUoadHi438P8","title":{"en":"Airports","iw":"שדות תעופה","ru":"Аэропорты"},"templates":{"poi":{"top_row":[{"type":"poi_name"}],"bottom_row":[{"type":"full_address"}]}},"templates_v2":{"poi":{"top_row":[{"type":"poi_name"}],"bottom_row":[{"type":"city"}]}},"options":{"title_character_limit":36,"sortby_distance":"true"}},{"language":"iw","type":"train","api":"hardcoded_poi","title":{"en":"Train Stations","iw":"תחנות רכבת","ru":"Bокзалы"},"templates":{"poi":{"top_row":[{"type":"poi_name"}],"bottom_row":[{"type":"city"}]}},"options":{"title_character_limit":36,"sortby_distance":"true"}},{"language":"en","type":"train","api":"google_nearby","api_v2":"hardcoded_poi","source":"https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=[LAT,LNG]&rankby=prominence&radius=2000&types=train_station&language=en&sensor=true&key=AIzaSyBmgcuoNZLqQG7I51V9dk_mUoadHi438P8","title":{"en":"Train Stations","iw":"תחנות רכבת","ru":"Bокзалы"},"templates":{"poi":{"top_row":[{"type":"poi_name"}],"bottom_row":[{"type":"full_address"}]}},"templates_v2":{"poi":{"top_row":[{"type":"poi_name"}],"bottom_row":[{"type":"city"}]}},"options":{"sortby_distance":"true"}},{"language":"iw","type":"hotels","api":"google_nearby","source":"https://maps.googleapis.com/maps/api/place/nearbysearch/json?keyword=hotel&location=[LAT,LNG]&rankby=prominence&types=establishment|lodging&language=iw&radius=1000&sensor=true&key=AIzaSyBmgcuoNZLqQG7I51V9dk_mUoadHi438P8","title":{"en":"Hotels","iw":"מלונות","ru":"Отели"},"templates":{"poi":{"top_row":[{"type":"poi_name"}],"bottom_row":[{"type":"full_address"}]}},"options":{"title_character_limit":41,"sortby_distance":"true"}},{"language":"en","type":"hotels","api":"google_nearby","source":"https://maps.googleapis.com/maps/api/place/nearbysearch/json?keyword=hotel&location=[LAT,LNG]&rankby=prominence&types=establishment|lodging&language=en&radius=1000&sensor=true&key=AIzaSyBmgcuoNZLqQG7I51V9dk_mUoadHi438P8","title":{"en":"Hotels","iw":"מלונות","ru":"Отели"},"templates":{"poi":{"top_row":[{"type":"poi_name"}],"bottom_row":[{"type":"full_address"}]}},"options":{"title_character_limit":40,"sortby_distance":"true"}},{"language":"iw","type":"restaurants","api":"google_nearby","source":"https://maps.googleapis.com/maps/api/place/nearbysearch/json?keyword=restaurant&location=[LAT,LNG]&rankby=prominence&types=establishment|food|restaurant|cafe&language=iw&radius=300&sensor=true&key=AIzaSyBmgcuoNZLqQG7I51V9dk_mUoadHi438P8","title":{"en":"Restaurants","iw":"מסעדות","ru":"Рестораны"},"templates":{"poi":{"top_row":[{"type":"poi_name"}],"bottom_row":[{"type":"full_address"}]}},"options":{"title_character_limit":40,"sortby_distance":"true"}},{"language":"en","type":"restaurants","api":"google_nearby","source":"https://maps.googleapis.com/maps/api/place/nearbysearch/json?keyword=restaurant&location=[LAT,LNG]&rankby=prominence&types=establishment|food|restaurant|cafe&language=en&radius=300&sensor=true&key=AIzaSyBmgcuoNZLqQG7I51V9dk_mUoadHi438P8","title":{"en":"Restaurants","iw":"מסעדות","ru":"Рестораны"},"templates":{"poi":{"top_row":[{"type":"poi_name"}],"bottom_row":[{"type":"full_address"}]}},"options":{"title_character_limit":40,"sortby_distance":"true"}}]};{"pickup_address":[{"api":"google_geocoding","source":"http://maps.googleapis.com/maps/api/geocode/json?&latlng=[LAT,LNG]&language=[SETTINGS]&sensor=true","options":{"support_range":true,"recent_distance":400,"airport_distance":500,"train_distance":150,"exclude":["political"]},"templates":{"address":{"top_row":[{"type":"street","suffix":" "},{"type":"number"}],"bottom_row":[{"type":"city"}]},"poi":{"top_row":[{"type":"poi_name"}],"bottom_row":[{"type":"street","suffix":", "},{"type":"number","suffix":", "},{"type":"city"}]}}}],"search":[{"api":"google_autocomplete","source":"https://maps.googleapis.com/maps/api/place/autocomplete/json?input=[QUERY]&language=[SETTINGS]&types=establishment|geocode&location=[LAT,LNG]&radius=500&sensor=true&key=AIzaSyBmgcuoNZLqQG7I51V9dk_mUoadHi438P8","templates":{"poi":{"top_row":[{"type":"poi_name"}],"bottom_row":[{"type":"full_address"}]}},"options":{"exclude":["political","neighborhood"]}},{"api":"google_details","source":"https://maps.googleapis.com/maps/api/place/details/json?sensor=true&key=AIzaSyBmgcuoNZLqQG7I51V9dk_mUoadHi438P8&reference=[REFERENCE]&language=[SETTINGS]","source_v2":"https://maps.googleapis.com/maps/api/place/details/json?sensor=true&key=AIzaSyBmgcuoNZLqQG7I51V9dk_mUoadHi438P8&placeid=[PLACE_ID]&language=[SETTINGS]","templates":{"poi":{"top_row":[{"type":"poi_name"}],"bottom_row":[{"type":"full_address"}]},"address":{"top_row":[{"type":"street","suffix":" "},{"type":"number"}],"bottom_row":[{"type":"city"}]}}},{"api":"hardcoded_poi","templates":{"poi":{"top_row":[{"type":"poi_name"}],"bottom_row":[{"type":"full_address"}]},"address":{"top_row":[{"type":"street","suffix":" "},{"type":"number"}],"bottom_row":[{"type":"city"}]}},"options":{"sortby_distance":true,"char_wait":2}},{"api":"cc_pois","templates":{"poi":{"top_row":[{"type":"poi_name"}],"bottom_row":[{"type":"street","suffix":" "},{"type":"number","suffix":", "},{"type":"city"}]}},"options":{"char_wait":2}}],"tabs":[{"type":"recent","api":"hardcoded_poi","title":{"en":"Recent","iw":"כתובות אחרונות","ru":"Hедавние"},"templates":{"address":{"top_row":[{"type":"street","suffix":" "},{"type":"number"}],"bottom_row":[{"type":"city"}]},"poi":{"top_row":[{"type":"poi_name"}],"bottom_row":[{"type":"full_address"}]}},"options":{"sortby_distance":"true"}},{"language":"iw","type":"nearby","api":"google_nearby","source":"https://maps.googleapis.com/maps/api/place/nearbysearch/json?rankby=prominence&types=establishment|cafe|restaurant|restaurant|bakery|lodging&radius=200&sensor=true&key=AIzaSyBmgcuoNZLqQG7I51V9dk_mUoadHi438P8&location=[LAT,LNG]&language=iw","title":{"en":"Nearby","iw":"מקומות בסביבה","ru":"Поблизости"},"templates":{"poi":{"top_row":[{"type":"poi_name"}],"bottom_row":[{"type":"full_address"}]}},"options":{"title_character_limit":34,"sortby_distance":true}},{"language":"en","type":"nearby","api":"google_nearby","source":"https://maps.googleapis.com/maps/api/place/nearbysearch/json?rankby=prominence&types=establishment|cafe|restaurant|restaurant|bakery|lodging&radius=200&sensor=true&key=AIzaSyBmgcuoNZLqQG7I51V9dk_mUoadHi438P8&location=[LAT,LNG]&language=en","title":{"en":"Nearby","iw":"מקומות בסביבה","ru":"поблизости"},"templates":{"poi":{"top_row":[{"type":"poi_name"}],"bottom_row":[{"type":"full_address"}]}},"options":{"title_character_limit":34,"sortby_distance":"true"}},{"language":"iw","type":"airport","api":"hardcoded_poi","title":{"en":"Airports","iw":"שדות תעופה","ru":"Аэропорты"},"templates":{"poi":{"top_row":[{"type":"poi_name"}],"bottom_row":[{"type":"city"}]}},"options":{"sortby_distance":"true"}},{"language":"en","type":"airport","api":"google_nearby","api_v2":"hardcoded_poi","source":"https://maps.googleapis.com/maps/api/place/nearbysearch/json?keyword=airport&location=[LAT,LNG]&rankby=prominence&radius=50000&types=airport&language=en&sensor=true&key=AIzaSyBmgcuoNZLqQG7I51V9dk_mUoadHi438P8","title":{"en":"Airports","iw":"שדות תעופה","ru":"Аэропорты"},"templates":{"poi":{"top_row":[{"type":"poi_name"}],"bottom_row":[{"type":"full_address"}]}},"templates_v2":{"poi":{"top_row":[{"type":"poi_name"}],"bottom_row":[{"type":"city"}]}},"options":{"title_character_limit":36,"sortby_distance":"true"}},{"language":"iw","type":"train","api":"hardcoded_poi","title":{"en":"Train Stations","iw":"תחנות רכבת","ru":"Bокзалы"},"templates":{"poi":{"top_row":[{"type":"poi_name"}],"bottom_row":[{"type":"city"}]}},"options":{"title_character_limit":36,"sortby_distance":"true"}},{"language":"en","type":"train","api":"google_nearby","api_v2":"hardcoded_poi","source":"https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=[LAT,LNG]&rankby=prominence&radius=2000&types=train_station&language=en&sensor=true&key=AIzaSyBmgcuoNZLqQG7I51V9dk_mUoadHi438P8","title":{"en":"Train Stations","iw":"תחנות רכבת","ru":"Bокзалы"},"templates":{"poi":{"top_row":[{"type":"poi_name"}],"bottom_row":[{"type":"full_address"}]}},"templates_v2":{"poi":{"top_row":[{"type":"poi_name"}],"bottom_row":[{"type":"city"}]}},"options":{"sortby_distance":"true"}},{"language":"iw","type":"hotels","api":"google_nearby","source":"https://maps.googleapis.com/maps/api/place/nearbysearch/json?keyword=hotel&location=[LAT,LNG]&rankby=prominence&types=establishment|lodging&language=iw&radius=1000&sensor=true&key=AIzaSyBmgcuoNZLqQG7I51V9dk_mUoadHi438P8","title":{"en":"Hotels","iw":"מלונות","ru":"Отели"},"templates":{"poi":{"top_row":[{"type":"poi_name"}],"bottom_row":[{"type":"full_address"}]}},"options":{"title_character_limit":41,"sortby_distance":"true"}},{"language":"en","type":"hotels","api":"google_nearby","source":"https://maps.googleapis.com/maps/api/place/nearbysearch/json?keyword=hotel&location=[LAT,LNG]&rankby=prominence&types=establishment|lodging&language=en&radius=1000&sensor=true&key=AIzaSyBmgcuoNZLqQG7I51V9dk_mUoadHi438P8","title":{"en":"Hotels","iw":"מלונות","ru":"Отели"},"templates":{"poi":{"top_row":[{"type":"poi_name"}],"bottom_row":[{"type":"full_address"}]}},"options":{"title_character_limit":40,"sortby_distance":"true"}},{"language":"iw","type":"restaurants","api":"google_nearby","source":"https://maps.googleapis.com/maps/api/place/nearbysearch/json?keyword=restaurant&location=[LAT,LNG]&rankby=prominence&types=establishment|food|restaurant|cafe&language=iw&radius=300&sensor=true&key=AIzaSyBmgcuoNZLqQG7I51V9dk_mUoadHi438P8","title":{"en":"Restaurants","iw":"מסעדות","ru":"Рестораны"},"templates":{"poi":{"top_row":[{"type":"poi_name"}],"bottom_row":[{"type":"full_address"}]}},"options":{"title_character_limit":40,"sortby_distance":"true"}},{"language":"en","type":"restaurants","api":"google_nearby","source":"https://maps.googleapis.com/maps/api/place/nearbysearch/json?keyword=restaurant&location=[LAT,LNG]&rankby=prominence&types=establishment|food|restaurant|cafe&language=en&radius=300&sensor=true&key=AIzaSyBmgcuoNZLqQG7I51V9dk_mUoadHi438P8","title":{"en":"Restaurants","iw":"מסעדות","ru":"Рестораны"},"templates":{"poi":{"top_row":[{"type":"poi_name"}],"bottom_row":[{"type":"full_address"}]}},"options":{"title_character_limit":40,"sortby_distance":"true"}}]}
+il;channel_prefix;dbx.production.is;0099d533fadba24f16dd6ab966ab4c3b;0099d533fadba24f16dd6ab966ab4c3b
+il;short_code_service_url;http://gtag.gtforge.com/;http://gtag-scrum2.gett.qa/
+il;final_map_distance;1000;2000
+il;initial_map_distance;200;700
+il;access_key_id;AKIAJDPGZWADYR3LVPYA;AKIAI2YTYVIAOW54CJNA
+il;order_locked_cache_ttl;86400;1
+il;pre_eta_service_url;https://preeta.gtforge.com;localhost
+il;enable_distance_time_table_cache;1;0
+il;supplier_areas_queues_service_url;http://saq.gtforge.com/;http://saq-scrum7.gett.qa/
+il;filter_previous_ignored_rejected_drivers;1;0
+il;google_directions_estimations_enabled;0;1
+il;offer_eta_to_pickup_timeout;0.2;0.03
+il;gateway_service_url;http://sgw.gtforge.com/;Missing URL
+il;twitter_link;https://twitter.com/gett_il;Missing URL
+il;default_radio;no;relax
+il;analytics_token;83a4a8f8feed6fb3e0b04e87bcc53335;Missing Value
+il;charging_service_url;http://charging.gtforge.com;http://charging-scrum2.gett.qa
+il;default_local_cache_ttl;15;60
+il;orders_polling_interval;60;30
+il;fire_amount;0;2
+il;area_ids_for_acceptance_prediction;97083,679;-1
+il;live_person;*;0
+il;phone_number_fraud_analyses_register;false;true
+il;trip_service_url;http://trip.gtforge.com/;http://trip-scrum2.gett.qa/
+il;mapquest_matrix_url;http://www.mapquestapi.com/directions/v2/routematrix;Missing URL
+il;threshold_seconds;180;10
+il;pricing_service_url;http://pricing.gtforge.com/;http://pricing-scrum2.gett.qa/
+il;coupon_service_code_activation;true;false
+il;offer_map_display;1;0
+il;drivers_list_radius;3;0.05
+il;arm_service_url;http://arm.gtforge.com/;http://arm-scrum2.gett.qa/
+il;fallback_invite_friends_amount;10;15
+il;api_base_url;https://auth_4699198b788fe2ddd6e6:@pms.gtforge.com/api;http://admin_token:@pms-scrum2.gett.qa/api
+il;bundled_time_frame_sec;0;1800
+il;service_time_refresh_interface_sec;60;0
+il;driver_rating_last_rides;150;50
+il;invite_friends_coupon_service;true;false
+il;appsflyer_url;http://api2.appsflyer.com/inappevent/;Missing URL
+il;reward_amount;40;15
+il;show_passenger_comment_dialog;0;1
+il;loyalty_deeplink_url;.;Missing URL
+il;wave_extra_rule_area_id;;1137
+il;reports_server_url;reports-il.gett.com;http://il-scrum2.gett.qa/
+il;supplier_order_user_id;1931200;1834712
+il;fallback_recharge_max_per_batch;45;25
+il;invitee_amount;100;15
+il;supply_gateway_service_url;https://supplygateway.gett.com/;http://supplygateway-scrum2.gett.qa/
+il;events_import_max_row_length;50000;1000
+il;blog_link;http://gett.com/il/blog/;Missing URL
+il;by_area;1;0
+il;media_service_url;http://media.gtforge.com/;http://media-scrum2.gett.qa/
+il;daily_reward_per_ride;0;5
+il;line_service_url;http://line.gtforge.com/;http://line-scrum2.gett.qa/
+il;future_booking_service_url;http://futureorder.gtforge.com/;Missing URL
+il;landing_page_url_template;http://invite-il.gett.com/code/%{coupon_code};http://invite-scrum2.gett.qa/code/%{coupon_code}
+il;acceptance_prediction_service_url;http://ec2-54-75-39-160.eu-west-1.compute.amazonaws.com/;http://acceptance-prediction-scrum2.gett.qa/
+il;default_circuit_breaker_recover_timeout;120;10
+il;refer_driver_url;http://bit.ly/2iEgOiq;0
+il;monitoring_relay_service_url;http://monitoring-relay.gtforge.com/;http://relayscrum.gett.qa/
+il;valid_time_value;90;900
+il;send_routing_event;1;0
+il;area_service_url;http://area.gtforge.com/;http://area-scrum2.gett.qa/
+il;rides_map_images_bucket_name;rides-map-images;rides-map-images-scrum
+il;adx_url;http://apps.ad-x.co.uk/API;Missing URL
+il;client_gateway_service_url;https://clientgateway.gett.com/;http://clientgateway-qa.gett.qa/
+il;ftr_coupon;1;0
+il;enable_force_autopay_on_auth_failure;0;1
+il;business_signup_marketing_url;enter valid url here;Missing URL
+il;min_offer_distance_for_auto_approval;10000;100
+il;wave_extra_rule_radius_factor;1;0.75
+il;cancellation_enabled_timer_secs;60;120
+il;inviter_amount;30;15
+il;pay_with_gett_connect_to_drivers_counter_expiration_time_in_minutes;5;15
+il;use_supply_gateway;1;0
+il;enabled;true;false
+il;cc_otp_pass_enabled;1;0
+il;default_stream;gett-kinesis-prod;gett-kinesis-qa
+il;expiration_timeout;16;19
+il;location_service_url;http://location-int.gett.com/;http://location-scrum2.gett.qa/
+il;ordering_service_url;http://ordering.gtforge.com/;http://ordering-scrum2.gett.qa/
+il;use_commission_for_fees;0;1
+il;singular_url;https://t.singular.net/s2s/events;Missing URL
+il;location_service_tries_on_timeout;20;5
+il;reports_service_url;http://reports.gtforge.com/;http://reports-scrum2.gett.qa/
+il;url;localhost:3000;http://test@hub-scrum2.gett.qa/;Missing URL
+il;location_service_routing_data_timeout;0.3;0.03
+il;ftr_coupon_value;100;0
+il;enable_destination_flags;1;0
+il;ill_be_right_there_after_ping_timer_secs;300;600
+il;confirmation_sms_maximum_tries_before_blocking;No such key in Scrum
+il;show_ride_type;1;0
+il;marketing_popup_timeout_threshold;3000;200
+il;coupon_service_url;http://coupon.gtforge.com/;http://coupon-scrum2.gett.qa/
+il;celeb_campaign_divisions;0;24
+il;secret_access_key;kEnBZ6JWHmqWyyB7NyK3B4iREvFcymEjDjh/zxdh;DF2893FksK6ymnJh5v5U7E/2glx1fmrcd876xGH6
+il;active;No such key in Scrum
+il;acceptance_prediction_service_timeout;1;0.03
+il;driver_info_from_location_service;1;0
+il;charging_service_use_for_smb;1;0
+il;webhook_service_url;http://webhook.gtforge.com/;http://webhook-qa.gett.qa/
+il;policy_url;https://s3.amazonaws.com/tu.gett.com/cancellation_policy_il.html;Missing URL
+il;divisions_data;{"38":{"enabled":true,"max_participants":20},"43":{"enabled":true,"max_participants":4}, "2014":{"enabled":true,"max_participants":20},"2":{"enabled":true,"max_participants":4},"41":{"enabled":true,"max_participants":4},"3":{"enabled":true,"max_participants":4},"4":{"enabled":true,"max_participants":4},"5":{"enabled":true,"max_participants":4},"6":{"enabled":true,"max_participants":4},"8":{"enabled":true,"max_participants":4},"9":{"enabled":true,"max_participants":4},"10":{"enabled":true,"max_participants":4},"11":{"enabled":true,"max_participants":4},"12":{"enabled":true,"max_participants":4},"13":{"enabled":true,"max_participants":4},"14":{"enabled":true,"max_participants":4},"15":{"enabled":true,"max_participants":4},"16":{"enabled":true,"max_participants":4},"17":{"enabled":true,"max_participants":4},"19":{"enabled":true,"max_participants":4},"20":{"enabled":true,"max_participants":4},"21":{"enabled":true,"max_participants":4},"22":{"enabled":true,"max_participants":4},"23":{"enabled":true,"max_participants":4},"24":{"enabled":true,"max_participants":4},"25":{"enabled":true,"max_participants":4},"26":{"enabled":true,"max_participants":4},"27":{"enabled":true,"max_participants":4},"28":{"enabled":false,"max_participants":4},"29":{"enabled":false,"max_participants":4},"30":{"enabled":true,"max_participants":4},"31":{"enabled":false,"max_participants":4},"32":{"enabled":true,"max_participants":4},"33":{"enabled":true,"max_participants":4},"40":{"enabled":true,"max_participants":4},"34":{"enabled":true,"max_participants":4},"35":{"enabled":true,"max_participants":4},"38":{"enabled":true,"max_participants":20},"73":{"enabled":true,"max_participants":4}};{"2014":{"enabled":true,"max_participants":20},"2":{"enabled":true,"max_participants":4},"41":{"enabled":true,"max_participants":4},"3":{"enabled":true,"max_participants":4},"4":{"enabled":true,"max_participants":4},"5":{"enabled":true,"max_participants":4},"6":{"enabled":true,"max_participants":4},"8":{"enabled":true,"max_participants":4},"9":{"enabled":true,"max_participants":4},"10":{"enabled":true,"max_participants":4},"11":{"enabled":true,"max_participants":4},"12":{"enabled":true,"max_participants":4},"13":{"enabled":true,"max_participants":4},"14":{"enabled":true,"max_participants":4},"15":{"enabled":true,"max_participants":4},"16":{"enabled":true,"max_participants":4},"17":{"enabled":true,"max_participants":4},"19":{"enabled":true,"max_participants":4},"20":{"enabled":true,"max_participants":4},"21":{"enabled":true,"max_participants":4},"22":{"enabled":true,"max_participants":4},"23":{"enabled":true,"max_participants":4},"24":{"enabled":true,"max_participants":4},"25":{"enabled":true,"max_participants":4},"26":{"enabled":true,"max_participants":4},"27":{"enabled":true,"max_participants":4},"28":{"enabled":false,"max_participants":4},"29":{"enabled":false,"max_participants":4},"30":{"enabled":true,"max_participants":4},"31":{"enabled":false,"max_participants":4},"32":{"enabled":true,"max_participants":4},"33":{"enabled":true,"max_participants":4},"40":{"enabled":true,"max_participants":4},"34":{"enabled":true,"max_participants":4},"35":{"enabled":true,"max_participants":4},"38":{"enabled":true,"max_participants":20}}
+il;max_allowed;4;5
+il;gms_version_url;https://s3-eu-west-1.amazonaws.com/alpha.gettaxi.com/kiosk/com.google.android.gms_3136.apk;Missing URL
+il;show_history_breakdown_for_account;1;0
+il;continue_when_no_drivers;0;1
+il;osrm_areas;2973;-1
+il;travel_policy_url;http://travelpolicy.gtforge.com;http://travelpolicy-qa.gett.qa/
+il;drivers_count_from_location;5;7
+il;order_progress_logger_enabled;0;1
+il;commission_service_url;http://commission.gtforge.com/;http://commission-scrum2.gett.qa/
+il;pubnub_service_url;http://pubnub.gtforge.com/;http://pubnub-qa.gett.qa/
+il;future_booking_service_settings_enabled;true;false
+il;class_identity_service_url;http://class-identity.gtforge.com/;http://class-identity-scrum2.gett.qa/
+il;show_price_by_ride_type;3;1
+il;redis_host;il-redis.gtforge.com;Missing Value
+il;driver_rating_start_fives_amount;No such key in Production
+il;leumi_widget_production_enabled;true;0
+il;advance_booking_days_number;No such key in Production
+il;instagram_link;https://instagram.com/gett_il;Missing URL
+il;website;http://www.gett.com/il;Missing URL
+il;nexmo_registry_url;https://rest.nexmo.com/ni/json;Missing URL
+il;send_heatmaps_events;1;0
+il;planned_stop_radius_meters;300;0
+il;pay_with_gett_driver_list_maximum_tries_before_blocking;10;3
+il;retrieve_user_by_card;1;0
+il;default_driving_type;fast;normal
+il;use_pubnub_service;1;0
+il;advance_booking_timeframe_non_cc;100;14
+il;calculate_fleet_commission;0;1
+il;retrieve_user_by_card_counter_expiration_time_in_minutes;1;900
