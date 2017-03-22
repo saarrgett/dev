@@ -14,13 +14,14 @@ public class Main {
     public static String rootPath = new RootPathObject().getRootPath();
     public static String fileName = scrum; //The name of the file. it will be saved under the user folder
     public static String whiteListRelativePath = rootPath + "/res/xls/whitelist.xlsx"; // The relative path of the white list file
+
     public static void main(String[] args) {
         try {
             HashMap<Object, HashMap<Object, ArrayList<Object>>> whiteList;
             fileName = scrum = new TerminalConsole(args).handleUserInput(scrum);
             TxtHandler txtHandler = new TxtHandler(rootPath + "/res/txt/" + fileName + ".txt");
             ExcelHandler excelHandler =  new ExcelHandler(rootPath + "/system_settings_diffs/" + fileName + ".xlsx");
-              whiteList = excelHandler.readFromComplexExcel(whiteListRelativePath);
+            whiteList = excelHandler.readFromComplexExcel(whiteListRelativePath);
             SystemSettingDiffs systemSettingDiffs = new SystemSettingDiffs( scrum , whiteList);
             HashMap<Object, HashMap<Object, ArrayList<Object>>> map = systemSettingDiffs.getDiffsFromAllCountries();
             excelHandler.createExcelSpreadSheetFromHashMap(map);

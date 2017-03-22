@@ -94,22 +94,6 @@ public class SystemSettingDiffs {
         diffsMaps.put(country, diffsMap);
     }
 
-    private void updateWhiteListValues() {
-        for (Object country : diffsMaps.keySet()) {
-            HashMap<Object, ArrayList<Object>> countryMap = diffsMaps.get(country);
-            for (Object key : countryMap.keySet()) {
-                if (whiteList.get(country) != null) {
-                    for (Object whiteListKey : whiteList.get(country).keySet())
-                        if (whiteListKey.toString().equals(key.toString())) {
-                            List<Object> valuesList = countryMap.get(key);
-                            whiteList.get(country).get(key).clear();
-                            whiteList.get(country).get(key).add(valuesList);
-                        }
-                }
-            }
-        }
-    }
-
     /**
      * The function update all the diffs between Production to the Scrum
      *
@@ -139,12 +123,13 @@ public class SystemSettingDiffs {
     }
 
     /**
-     * The function updates the values in the white list, in case the current key is in the white list
+     * The function updates the values in the white list, in case the current key is in the white list.
+     * If there was a change of the value in the database, then the key and values will be removed from the white list.
      * @param countryWhiteList The white list of specific country
      * @param currentKey The current key - checked if it is in the white list
      * @param diffList List containing the differences of specific environment
      * @param diffFromEnvs List Of lists of differences
-     * @return true if the key is found in the white list, false otherwise.
+     * @return true if the key is found in the white list, false if it wasn't found or if .
      */
     private boolean isValueInWhiteListAndUpdateValue(HashMap<Object, ArrayList<Object>> countryWhiteList, String currentKey, List<Object> diffList, List<List<Object>> diffFromEnvs) {
         ArrayList<Object> values = new ArrayList<Object>();
@@ -154,13 +139,31 @@ public class SystemSettingDiffs {
             for (List<Object> diffListOfScrum : diffFromEnvs) {
                 Object envCurrentKey = diffListOfScrum.get(4);
                 if (currentKey.equals(envCurrentKey))
-                    values.add(diffListOfScrum.get(5));
-            }
-            values.add(diffList.get(5));
+                {
+                    ArrayList<Object> whiteListValues = countryWhiteList.get(currentKey);
 
-            countryWhiteList.get(currentKey).clear();
-            for(Object value : values)
-                countryWhiteList.get(currentKey).add(value);
+                    //If the values are not equal, then it means that the value at the database was changed. Need to be reexamined, so it is removed from the white list.
+                    if(whiteListValues.size() > 1 && (!diffListOfScrum.get(5).equals(whiteListValues.get(0)) && (!diffListOfScrum.get(5).equals(whiteListValues.get(1)))))
+                    {
+                        countryWhiteList.remove(currentKey);
+                        return false;
+                    }
+
+                    //If the values are not equal, then it means that the value at the database was changed. Need to be reexamined, so it is removed from the white list.
+                    if(whiteListValues.size() > 1 && (!diffList.get(5).equals(whiteListValues.get(0)) && (!diffList.get(5).equals(whiteListValues.get(1)))))
+                    {
+                        countryWhiteList.remove(currentKey);
+                        return false;
+                    }
+
+                    //If the values are not equal, then it means that the value at the database was changed. Need to be reexamined, so it is removed from the white list.
+                    if(whiteListValues.size() == 1 && (!diffList.get(5).equals(whiteListValues.get(0)) && (!diffListOfScrum.get(5).equals(whiteListValues.get(0)))))
+                    {
+                        countryWhiteList.remove(currentKey);
+                        return false;
+                    }
+                }
+            }
 
             return true;
         }
