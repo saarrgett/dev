@@ -1,6 +1,7 @@
 import files_handlers.excel.excel.ExcelHandler;
 import files_handlers.excel.txt.TxtHandler;
 import interface_pack.TerminalConsole;
+import javafx.util.Pair;
 import objects.RootPathObject;
 import objects.SystemSettingDiffs;
 import java.util.ArrayList;
@@ -17,13 +18,13 @@ public class Main {
 
     public static void main(String[] args) {
         try {
-            HashMap<Object, HashMap<Object, ArrayList<Object>>> whiteList;
+            HashMap<Object, HashMap<Pair<Object, Object>, ArrayList<Object>>> whiteList;
             fileName = scrum = new TerminalConsole(args).handleUserInput(scrum);
             TxtHandler txtHandler = new TxtHandler(rootPath + "/res/txt/" + fileName + ".txt");
             ExcelHandler excelHandler =  new ExcelHandler(rootPath + "/system_settings_diffs/" + fileName + ".xlsx");
             whiteList = excelHandler.readFromComplexExcel(whiteListRelativePath);
             SystemSettingDiffs systemSettingDiffs = new SystemSettingDiffs( scrum , whiteList);
-            HashMap<Object, HashMap<Object, ArrayList<Object>>> map = systemSettingDiffs.getDiffsFromAllCountries();
+            HashMap<Object, HashMap<Pair<Object, Object>, ArrayList<Object>>> map = systemSettingDiffs.getDiffsFromAllCountries();
             excelHandler.createExcelSpreadSheetFromHashMap(map);
             txtHandler.writeToTxtFile(map);
             excelHandler.setFileName(whiteListRelativePath);

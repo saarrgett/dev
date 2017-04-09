@@ -3,6 +3,7 @@ package objects;
 import db.DBHandler;
 import db.ResultSetConverter;
 import files_handlers.excel.excel.ExcelComparer;
+import javafx.util.Pair;
 
 import java.sql.ResultSet;
 import java.util.*;
@@ -20,20 +21,20 @@ public class SystemSettingDiffs {
     private String replicaCloneProductionUser = "automation";
     private String replicaCloneProductionPassword = "Auto!@2016";
     private String query = "Select * from ";
-    private HashMap<Object, HashMap<Object, ArrayList<Object>>> diffsMaps;
+    private HashMap<Object, HashMap<Pair<Object, Object>, ArrayList<Object>>> diffsMaps;
 
 
-    private HashMap<Object, HashMap<Object, ArrayList<Object>>> whiteList;
+    private HashMap<Object, HashMap<Pair<Object, Object>, ArrayList<Object>>> whiteList;
     private String noSuchKeyStr = "No such key";
 
     //C'tor
-    public SystemSettingDiffs(String scrum, HashMap<Object, HashMap<Object, ArrayList<Object>>> whiteList) {
+    public SystemSettingDiffs(String scrum, HashMap<Object, HashMap<Pair<Object, Object>, ArrayList<Object>>> whiteList) {
         this.scrum = scrum;
         this.whiteList = whiteList;
-        diffsMaps = new HashMap<Object, HashMap<Object, ArrayList<Object>>>();
+        diffsMaps = new HashMap<Object, HashMap<Pair<Object, Object>, ArrayList<Object>>>();
     }
 
-    public HashMap<Object, HashMap<Object, ArrayList<Object>>> getWhiteList() {
+    public HashMap<Object, HashMap<Pair<Object, Object>, ArrayList<Object>>> getWhiteList() {
         return whiteList;
     }
 
@@ -43,7 +44,7 @@ public class SystemSettingDiffs {
      * @return Hash map contains all the diffs from all the countries
      * @throws Exception
      */
-    public HashMap<Object, HashMap<Object, ArrayList<Object>>> getDiffsFromAllCountries() throws Exception {
+    public HashMap<Object, HashMap<Pair<Object, Object>, ArrayList<Object>>> getDiffsFromAllCountries() throws Exception {
         getDiffsFromSpecificCountry("il", replicaCloneProductionUrl.replace("country", "il"), this.url + "il" + scrum, "il" + scrum, "il" + scrum, "system_settings");
         getDiffsFromSpecificCountry("ru", replicaCloneProductionUrl.replace("country", "ru"), this.url + "ru" + scrum, "ru" + scrum, "ru" + scrum, "system_settings");
         getDiffsFromSpecificCountry("uk", replicaCloneProductionUrl.replace("country", "uk"), this.url + "uk" + scrum, "uk" + scrum, "uk" + scrum, "system_settings");
@@ -75,16 +76,16 @@ public class SystemSettingDiffs {
         resultSet = dbHandler.executeQuery(query + table);
         Object[][] productionObjMatrix = new ResultSetConverter().convertRStoMatrix(resultSet);
 
-        HashMap<Object, ArrayList<Object>> currentCountryWhiteList = whiteList.get(country);
+        HashMap<Pair<Object, Object>, ArrayList<Object>> currentCountryWhiteList = whiteList.get(country);
 
         if (currentCountryWhiteList == null)
-            currentCountryWhiteList = new HashMap<Object, ArrayList<Object>>();
+            currentCountryWhiteList = new HashMap<Pair<Object, Object>, ArrayList<Object>>();
 
         List<List<Object>> diffFromScrumToProduction = new ExcelComparer().returnDiffsBetweenExcels(scrumObjMatrix, productionObjMatrix);
         List<List<Object>> diffFromProductionToScrum = new ExcelComparer().returnDiffsBetweenExcels(productionObjMatrix, scrumObjMatrix);
 
         //Initializing the diffs map
-        HashMap<Object, ArrayList<Object>> diffsMap = new HashMap<Object, ArrayList<Object>>();
+        HashMap<Pair<Object, Object>, ArrayList<Object>> diffsMap = new HashMap<Pair<Object, Object>, ArrayList<Object>>();
 
         //Updating diffs
         updateAllTheDiffsOfValuesBetweenProductionToScrum(diffFromProductionToScrum, diffFromScrumToProduction, diffsMap, currentCountryWhiteList);
@@ -102,9 +103,10 @@ public class SystemSettingDiffs {
      * @param diffsMap                  A map contains all the diffs according key and list of values
      * @param whiteList                 all the keys to be ignored from
      */
-    private void updateAllTheDiffsOfValuesBetweenProductionToScrum(List<List<Object>> diffFromProductionToScrum, List<List<Object>> diffFromScrumToProduction, HashMap<Object, ArrayList<Object>> diffsMap, HashMap<Object, ArrayList<Object>> whiteList) {
+    private void updateAllTheDiffsOfValuesBetweenProductionToScrum(List<List<Object>> diffFromProductionToScrum, List<List<Object>> diffFromScrumToProduction, HashMap<Pair<Object, Object>, ArrayList<Object>> diffsMap, HashMap<Pair<Object, Object>, ArrayList<Object>> whiteList) {
         //Taking all the diffs and put them in a (key, (scrumVal, productionVal)) structure
         for (List<Object> diffListOfProduction : diffFromProductionToScrum) {
+            Object productionCurrentModule = diffListOfProduction.get(3);
             Object productionCurrentKey = diffListOfProduction.get(4);
             ArrayList<Object> values = new ArrayList<Object>();
 
@@ -114,11 +116,12 @@ public class SystemSettingDiffs {
             values.add(diffListOfProduction.get(5));
 
             for (List<Object> diffListOfScrum : diffFromScrumToProduction) {
+                Object scrumCurrentModule = diffListOfScrum.get(3);
                 Object scrumCurrentKey = diffListOfScrum.get(4);
-                if (productionCurrentKey.equals(scrumCurrentKey))
+                if (productionCurrentKey.equals(scrumCurrentKey) && productionCurrentModule.equals(scrumCurrentModule))
                     values.add(diffListOfScrum.get(5));
             }
-            diffsMap.put(productionCurrentKey, values);
+            diffsMap.put(new Pair<Object, Object>(productionCurrentModule, productionCurrentKey), values);
         }
     }
 
@@ -131,7 +134,7 @@ public class SystemSettingDiffs {
      * @param diffFromEnvs List Of lists of differences
      * @return true if the key is found in the white list, false if it wasn't found or if .
      */
-    private boolean isValueInWhiteListAndUpdateValue(HashMap<Object, ArrayList<Object>> countryWhiteList, String currentKey, List<Object> diffList, List<List<Object>> diffFromEnvs) {
+    private boolean isValueInWhiteListAndUpdateValue(HashMap<Pair<Object, Object>, ArrayList<Object>> countryWhiteList, String currentKey, List<Object> diffList, List<List<Object>> diffFromEnvs) {
         ArrayList<Object> values = new ArrayList<Object>();
 
         //Updating the values of the key in the white list
@@ -181,7 +184,7 @@ public class SystemSettingDiffs {
      * @param diffsMap  The Diffs contained in a map object.
      * @param whiteList Contains all the keys to be ignored from
      */
-    private void updateAllTheDiffsOfKeysBetweenProductionToScrum(List<List<Object>> env1, List<List<Object>> env2, HashMap<Object, ArrayList<Object>> diffsMap, String envStr, HashMap<Object, ArrayList<Object>> whiteList) {
+    private void updateAllTheDiffsOfKeysBetweenProductionToScrum(List<List<Object>> env1, List<List<Object>> env2, HashMap<Pair<Object, Object>, ArrayList<Object>> diffsMap, String envStr, HashMap<Pair<Object, Object>, ArrayList<Object>> whiteList) {
         //Going over all the keys of the production and checking if there is a missing key in the scrum env
         int index = 0;
         for (List<Object> diffListOfEnv1 : env1) {

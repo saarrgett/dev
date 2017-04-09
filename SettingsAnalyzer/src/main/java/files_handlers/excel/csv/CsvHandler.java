@@ -15,7 +15,7 @@ public class CsvHandler {
     //Data members
     String whiteListRelativePath; //The initial value from the whitelist file
     BufferedReader br;
-    String csvSeperator; //The seperator used to parse the values from the csv file
+    String csvSeperator; //The separator used to parse the values from the csv file
 
     //C'tor
     public CsvHandler(String whiteListRelativePath){
