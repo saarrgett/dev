@@ -13,7 +13,7 @@ public class Main {
     public static String scrum = "scrum2"; // The scrum from where the system settings will be taken from
     public static String rootPath = new RootPathObject().getRootPath();
     public static String fileName = scrum; //The name of the file. it will be saved under the user folder
-    public static String whiteListRelativePath = rootPath + "/res/xls/whitelist.xlsx"; // The relative path of the white list file
+    public static String whiteListRelativePath = rootPath + "/res/xls/"+scrum+".xlsx"; // The relative path of the white list file
 
     public static void main(String[] args) {
         try {
