@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "756542365130",
+    "firebase_url": "https://hackatonproj.firebaseio.com",
+    "project_id": "hackatonproj",
+    "storage_bucket": "hackatonproj.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:756542365130:android:ee8eb8dee93f4b28",
+        "android_client_info": {
+          "package_name": "com.example.rachamim.hacaktonproj"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "756542365130-ihj6ek4aio10i2gk4pmo9bfp0kaq0011.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2wOl-6yscSgibf9S28MDp_sxObb1gmzM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

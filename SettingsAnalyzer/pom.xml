@@ -5,8 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.gettaxi.settings</groupId>
-    <artifactId>SettingsAnalyzer</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <artifactId>SettingsCompare</artifactId>
+    <version>1.0</version>
 
     <dependencies>
         <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->

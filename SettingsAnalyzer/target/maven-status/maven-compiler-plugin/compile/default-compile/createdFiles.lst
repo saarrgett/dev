@@ -1,0 +1,11 @@
+objects/SystemSettingDiffs.class
+files_handlers/excel/csv/CsvHandler.class
+appHandler/menu.class
+files_handlers/excel/excel/ExcelHandler.class
+Main.class
+db/DBHandler.class
+files_handlers/excel/txt/TxtHandler.class
+db/ResultSetConverter.class
+interface_pack/TerminalConsole.class
+files_handlers/excel/excel/ExcelComparer.class
+objects/RootPathObject.class

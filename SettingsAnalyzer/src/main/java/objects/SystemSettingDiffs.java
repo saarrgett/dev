@@ -191,6 +191,7 @@ public class SystemSettingDiffs {
             index++;
 
             Object productionCurrentKey = diffListOfEnv1.get(4);
+            Object productionCurrentModule = diffListOfEnv1.get(3);
             boolean foundKey = false;
 
             if (isValueInWhiteListAndUpdateValue(whiteList, productionCurrentKey.toString(), diffListOfEnv1, env2))
@@ -207,7 +208,7 @@ public class SystemSettingDiffs {
             if (!foundKey) {
                 ArrayList<Object> values = new ArrayList<Object>();
                 values.add(noSuchKeyStr + " in " + envStr);
-                diffsMap.put(productionCurrentKey, values);
+                diffsMap.put(new Pair<Object, Object>(productionCurrentModule, productionCurrentKey), values);
             }
         }
     }
