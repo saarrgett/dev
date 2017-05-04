@@ -26,7 +26,7 @@ public class Main {
             SystemSettingDiffs systemSettingDiffs = new SystemSettingDiffs( scrum , whiteList);
             HashMap<Object, HashMap<Pair<Object, Object>, ArrayList<Object>>> map = systemSettingDiffs.getDiffsFromAllCountries();
             excelHandler.createExcelSpreadSheetFromHashMap(map);
-            txtHandler.writeToTxtFile(map);
+//            txtHandler.writeToTxtFile(map);
             excelHandler.setFileName(whiteListRelativePath);
             excelHandler.createExcelSpreadSheetFromHashMap(systemSettingDiffs.getWhiteList());
             System.out.println("The programme passed successfully");
