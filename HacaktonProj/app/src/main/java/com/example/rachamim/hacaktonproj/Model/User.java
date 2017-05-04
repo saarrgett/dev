@@ -29,12 +29,40 @@ public class User {
     private String lastUpdate;
     private boolean blocked;
     private boolean blocking;
+
+    public String getOtherUserId() {
+        return otherUserId;
+    }
+
+    public void setOtherUserId(String otherUserId) {
+        this.otherUserId = otherUserId;
+    }
+
+    public boolean isBlocking() {
+        return blocking;
+    }
+
+    public void setBlocking(boolean blocking) {
+        this.blocking = blocking;
+    }
+
+    public boolean isBlocked() {
+        return blocked;
+    }
+
+    public void setBlocked(boolean blocked) {
+        this.blocked = blocked;
+    }
+
     private String otherUserId;
 
-    public User(String mail,String phone, String licensePlate, String date) {
+    public User(String mail,String phone, String licensePlate,Boolean blocked,boolean blocking,String otherUserId, String date) {
         this.email = mail;
         this.phone = phone;
         this.licensePlate = licensePlate;
+        this.blocked = blocked;
+        this.blocking = blocking;
+        this.otherUserId = otherUserId;
         this.lastUpdate = date;
     }
 
