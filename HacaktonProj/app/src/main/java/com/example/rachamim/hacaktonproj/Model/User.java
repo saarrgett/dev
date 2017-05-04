@@ -27,6 +27,9 @@ public class User {
     private String licensePlate;
     private String password;
     private String lastUpdate;
+    private boolean blocked;
+    private boolean blocking;
+    private String otherUserId;
 
     public User(String mail,String phone, String licensePlate, String date) {
         this.email = mail;
